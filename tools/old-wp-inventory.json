@@ -1,0 +1,1924 @@
+{
+ "pages": [
+  {
+   "id": 20006,
+   "slug": "presentations-nuno-crato",
+   "title": "Presentations",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 20005,
+   "slug": "education-nuno-crato",
+   "title": "Education",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 20004,
+   "slug": "publications-nuno-crato",
+   "title": "Publications",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 20003,
+   "slug": "research-nuno-crato",
+   "title": "Research",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 20002,
+   "slug": "about-nuno-crato",
+   "title": "About",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 20001,
+   "slug": "home-v2",
+   "title": "Home",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10008,
+   "slug": "ultima-licao",
+   "title": "Última Lição",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10007,
+   "slug": "about",
+   "title": "About",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10006,
+   "slug": "media",
+   "title": "Media",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10005,
+   "slug": "presentations-2",
+   "title": "Presentations",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10004,
+   "slug": "education-2",
+   "title": "Education",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10003,
+   "slug": "publications-2",
+   "title": "Publications",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10002,
+   "slug": "research-2",
+   "title": "Research",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 10001,
+   "slug": "home",
+   "title": "Home",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 2775,
+   "slug": "teste",
+   "title": "Developing Currriculum for Deep Thinking",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 2771,
+   "slug": "o-manual-escolar",
+   "title": "O Manual Escolar",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 2758,
+   "slug": "publications",
+   "title": "Publications",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 2512,
+   "slug": "upcoming-events",
+   "title": "Upcoming events",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1991,
+   "slug": "ultima-aula",
+   "title": "Última Lição",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1525,
+   "slug": "presentations",
+   "title": "Presentations",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1409,
+   "slug": "improving-a-countrys-education-pisa-results-in-10-countries",
+   "title": "Improving a Country&#8217;s Education: Pisa results in 10 countries",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1377,
+   "slug": "einsteins-eclipse-from-lisbon-and-london-to-sobral-and-the-island-of-principe",
+   "title": "Einsteins&#8217; Eclipse: From Lisbon and London to Sobral and the Island of Principe",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1360,
+   "slug": "jornal-expresso",
+   "title": "Jornal Expresso",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1358,
+   "slug": "jornal-de-noticias",
+   "title": "Jornal de Notícias",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1355,
+   "slug": "forbes",
+   "title": "Forbes",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1349,
+   "slug": "jornal-diario-de-noticias",
+   "title": "Jornal Diário de Notícias",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1347,
+   "slug": "jornal-publico",
+   "title": "Jornal Público",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1345,
+   "slug": "lusa",
+   "title": "LUSA",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1343,
+   "slug": "jornal-sol",
+   "title": "Jornal SOL",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1205,
+   "slug": "curriculum-vitae",
+   "title": "Curriculum Vitae",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1175,
+   "slug": "press-media",
+   "title": "Pictures",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1022,
+   "slug": "advocacy",
+   "title": "Media",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 983,
+   "slug": "about-me",
+   "title": "About Me",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 968,
+   "slug": "portuguese",
+   "title": "Portuguese",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 965,
+   "slug": "english",
+   "title": "English",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 893,
+   "slug": "iseg-lisbon-school-of-economics-management",
+   "title": "ISEG &#8211; Lisbon School of Economics &#038; Management",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 881,
+   "slug": "economics-of-education",
+   "title": "Economics of Education",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 879,
+   "slug": "us-mathematics-advisory-panel",
+   "title": "US Mathematics Advisory Panel",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 877,
+   "slug": "sociedade-portuguesa-de-matematica",
+   "title": "Sociedade Portuguesa de Matemática",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 867,
+   "slug": "academia",
+   "title": "Academia",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 863,
+   "slug": "ciencia-id",
+   "title": "Ciência ID",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 861,
+   "slug": "scopus",
+   "title": "Scopus",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 859,
+   "slug": "google-scholar",
+   "title": "Google Scholar",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 857,
+   "slug": "orcid",
+   "title": "Orcid",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 855,
+   "slug": "publons",
+   "title": "Publons",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 853,
+   "slug": "cemapre",
+   "title": "Publications &#8211; Cemapre",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 347,
+   "slug": "my-account",
+   "title": "My account",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 346,
+   "slug": "checkout",
+   "title": "Checkout",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 345,
+   "slug": "cart",
+   "title": "Cart",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 326,
+   "slug": "books",
+   "title": "Books/Articles",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 265,
+   "slug": "pictures",
+   "title": "Nota 20 Podcast",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 262,
+   "slug": "education",
+   "title": "Education",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 261,
+   "slug": "teaching",
+   "title": "Teaching",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 260,
+   "slug": "research",
+   "title": "Research",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 259,
+   "slug": "events",
+   "title": "Past Events",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1339,
+   "slug": "ensino-a-distancia-pode-ser-positivo-mas-apenas-como-complemento",
+   "title": "&#8220;Ensino a distância pode ser positivo, mas apenas como complemento&#8221;",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1335,
+   "slug": "a-conversa-com-eduardo-marcal-grilo",
+   "title": "À conversa com Eduardo Marçal Grilo",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1331,
+   "slug": "a-educacao-numa-encruzilhadaos-resultados-do-pisa",
+   "title": "A Educação numa encruzilhada?Os resultados do PISA",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1369,
+   "slug": "rakings-2019",
+   "title": "Rankings 2019",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 846,
+   "slug": "846-2",
+   "title": "Ciência em Portugal (Science in Portugal),  Instituto Camões (Both English and Portuguese)",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1325,
+   "slug": "entrevista-ao-jornal-sol-flexibilizacao-curricular",
+   "title": "Flexibilização Curricular 2018",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1321,
+   "slug": "resposta-a-entrevista-manuel-valsassina-heitor-expresso",
+   "title": "Resposta a Entrevista Manuel Valsassina Heitor Expresso 2018",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1314,
+   "slug": "entrevista-jornal-sol-2018",
+   "title": "Pais devem ter informação para apoiar, criticar ou pressionar as escolas 2018",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1306,
+   "slug": "entrevista-a-forbes-portugual-2018",
+   "title": "&#8220;Estamos a voltar quase 20 anos atrás na Educação&#8221; 2018",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1299,
+   "slug": "a-responsabilidade-dos-economistas-na-educacao",
+   "title": "A responsabilidade dos economistas na Educação 2017",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 1310,
+   "slug": "entrevista-diario-de-noticias-2016",
+   "title": "Melhorámos! Podemos ainda melhorar! 2016",
+   "parent": 0,
+   "status": "publish"
+  },
+  {
+   "id": 849,
+   "slug": "2003-european-mathematical-society-first-prize",
+   "title": "2003 European Mathematical Society First prize",
+   "parent": 0,
+   "status": "publish"
+  }
+ ],
+ "cats": [
+  {
+   "id": 57,
+   "slug": "advocacy",
+   "name": "Advocacy",
+   "count": 7
+  },
+  {
+   "id": 50,
+   "slug": "education",
+   "name": "Education",
+   "count": 4
+  },
+  {
+   "id": 45,
+   "slug": "events",
+   "name": "Events",
+   "count": 28
+  },
+  {
+   "id": 59,
+   "slug": "media",
+   "name": "Media",
+   "count": 83
+  },
+  {
+   "id": 66,
+   "slug": "past-events",
+   "name": "Past events",
+   "count": 0
+  },
+  {
+   "id": 43,
+   "slug": "publications",
+   "name": "Publications",
+   "count": 13
+  },
+  {
+   "id": 58,
+   "slug": "research",
+   "name": "Research",
+   "count": 11
+  },
+  {
+   "id": 42,
+   "slug": "science",
+   "name": "Science",
+   "count": 0
+  },
+  {
+   "id": 44,
+   "slug": "teaching",
+   "name": "Teaching",
+   "count": 0
+  },
+  {
+   "id": 1,
+   "slug": "uncategorized",
+   "name": "Uncategorized",
+   "count": 27
+  },
+  {
+   "id": 67,
+   "slug": "upcoming-events",
+   "name": "Upcoming events",
+   "count": 0
+  }
+ ],
+ "posts": [
+  {
+   "id": 2837,
+   "slug": "para-saber-mais-nao-basta-a-curiosidade",
+   "title": "Para saber mais não basta a curiosidade",
+   "cats": [
+    59
+   ],
+   "date": "2026-05-04"
+  },
+  {
+   "id": 2832,
+   "slug": "sono-e-aprendizagem-conversa-no-podcast-sono-trocado-por-miudos",
+   "title": "Sono e Aprendizagem: Conversa no Podcast &#8220;Sono Trocado por Miúdos&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2026-05-04"
+  },
+  {
+   "id": 2827,
+   "slug": "a-beleza-dos-numeros-a-minha-participacao-na-conferencia-matematica-arte-e-cultura",
+   "title": "A Beleza dos Números: A minha participação na Conferência &#8220;Matemática, Arte e Cultura&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2026-04-08"
+  },
+  {
+   "id": 2820,
+   "slug": "congreso-futuro-2026",
+   "title": "Congreso Futuro 2026",
+   "cats": [
+    59
+   ],
+   "date": "2026-01-20"
+  },
+  {
+   "id": 2803,
+   "slug": "forum-edita-barcelona-10-anos",
+   "title": "",
+   "cats": [
+    59
+   ],
+   "date": "2025-10-01"
+  },
+  {
+   "id": 2798,
+   "slug": "educar-tem-ciencia-o-que-e-um-bom-material-escolar",
+   "title": "Educar tem Ciência &#8211; O que é um bom material escolar?",
+   "cats": [
+    59
+   ],
+   "date": "2025-09-23"
+  },
+  {
+   "id": 2738,
+   "slug": "publications",
+   "title": "Publications",
+   "cats": [
+    1
+   ],
+   "date": "2025-08-04"
+  },
+  {
+   "id": 2702,
+   "slug": "formar-professores-demora-muito-tempo-rtp",
+   "title": "&#8220;Formar professores demora muito tempo&#8221; RTP",
+   "cats": [
+    59,
+    1
+   ],
+   "date": "2025-07-21"
+  },
+  {
+   "id": 2689,
+   "slug": "%f0%9f%93%a3-educacao-o-motor-de-transformacao-das-sociedadesparticipacao-na-grande-conferencia-educacao-e-transformacao",
+   "title": "📣 “Educação: o motor de transformação das sociedades”Participação na &#8220;Grande conferência Educação e Transformação&#8221;",
+   "cats": [
+    59,
+    1
+   ],
+   "date": "2025-06-03"
+  },
+  {
+   "id": 2685,
+   "slug": "rtve-catalunya",
+   "title": "RTVE CATALUNYA",
+   "cats": [
+    59
+   ],
+   "date": "2025-06-03"
+  },
+  {
+   "id": 2682,
+   "slug": "prova-oral-manual-escolar",
+   "title": "Prova Oral: &#8220;Manual Escolar&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2025-06-03"
+  },
+  {
+   "id": 2668,
+   "slug": "artigo-de-opiniao-no-publico",
+   "title": "Artigo de opinião no Público",
+   "cats": [
+    59
+   ],
+   "date": "2025-04-30"
+  },
+  {
+   "id": 2651,
+   "slug": "%f0%9f%93%9a-a-importancia-da-avaliacao-no-ensino",
+   "title": "📚 A importância da avaliação no ensino",
+   "cats": [
+    59
+   ],
+   "date": "2025-04-14"
+  },
+  {
+   "id": 2640,
+   "slug": "ranking-das-escolas-para-tirarmos-licoes-temos-de-ter-mais-dados-de-contexto",
+   "title": "Ranking das escolas: &#8220;Para tirarmos lições temos de ter mais dados de contexto&#8221;",
+   "cats": [
+    59,
+    1
+   ],
+   "date": "2025-04-06"
+  },
+  {
+   "id": 2616,
+   "slug": "entrevista-na-antena-1-pandemia-o-que-aprendemos-com-o-que-aconteceu",
+   "title": "Entrevista na Antena 1: Pandemia &#8211; O que aprendemos com o que aconteceu?",
+   "cats": [
+    59
+   ],
+   "date": "2025-03-27"
+  },
+  {
+   "id": 2613,
+   "slug": "os-nossos-jovens-de-15-anos-sabem-tanto-hoje-como-os-jovens-de-13-anos-de-ha-sete-ou-oito-anos",
+   "title": "“OS NOSSOS JOVENS DE 15 ANOS SABEM TANTO HOJE COMO OS JOVENS DE 13 ANOS DE HÁ SETE OU OITO ANOS&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2025-03-27"
+  },
+  {
+   "id": 2552,
+   "slug": "nuno-crato-no-oeiras-education-forum-o-debate-sobre-o-futuro-da-educacao",
+   "title": "Oeiras Education Forum: O Debate Sobre o Futuro da Educação",
+   "cats": [
+    59
+   ],
+   "date": "2025-03-12"
+  },
+  {
+   "id": 2533,
+   "slug": "exministro-de-portugal-nuno-crato-dice-que-el-curriculo-es-vital-para-mejorar-la-educacion",
+   "title": "Exministro de Portugal Nuno Crato dice que el currículo es vital para mejorar la educación",
+   "cats": [
+    59
+   ],
+   "date": "2025-02-20"
+  },
+  {
+   "id": 2496,
+   "slug": "%f0%9f%93%a2-quatro-conferencias-para-debater-o-futuro-da-educacao",
+   "title": "📢 Quatro Conferências para Debater o Futuro da Educação!",
+   "cats": [
+    45,
+    59
+   ],
+   "date": "2025-02-20"
+  },
+  {
+   "id": 2488,
+   "slug": "las-claves-del-exito-de-nuno-crato-el-exministro-que-mejoro-los-resultados-educativos-de-portugal-hay-que-basarse-en-conocimientos-no-en-competencias-y-evaluar",
+   "title": "Las claves del éxito de Nuno Crato, el exministro que mejoró los resultados educativos de Portugal: “Hay que basarse en conocimientos, no en competencias, y evaluar”",
+   "cats": [
+    57,
+    50,
+    59
+   ],
+   "date": "2025-02-20"
+  },
+  {
+   "id": 2484,
+   "slug": "nuno-crato-reivindica-el-libro-de-texto-frente-a-la-huida-del-conocimiento",
+   "title": "Nuno Crato reivindica el libro de texto frente a la “huida del conocimiento”",
+   "cats": [
+    59
+   ],
+   "date": "2025-02-20"
+  },
+  {
+   "id": 2464,
+   "slug": "lancamento-livro-aprender",
+   "title": "Lançamento Livro | Aprender",
+   "cats": [
+    45
+   ],
+   "date": "2025-02-14"
+  },
+  {
+   "id": 2413,
+   "slug": "lancamento-de-livro-improving-national-education-systems-after-covid-19",
+   "title": "Lançamento de livro | Improving National Education Systems After Covid-19",
+   "cats": [
+    43
+   ],
+   "date": "2024-11-01"
+  },
+  {
+   "id": 2400,
+   "slug": "entrevista-sic-noticias-ex-ministro-da-educacao-ha-muito-tempo-que-o-problema-da-falta-de-professores-e-do-conhecimento-do-ministerio",
+   "title": "Entrevista SIC Notícias: Ex-ministro da Educação: &#8220;há muito tempo&#8221; que o problema da falta de professores é do conhecimento do Ministério",
+   "cats": [
+    59
+   ],
+   "date": "2024-10-25"
+  },
+  {
+   "id": 2395,
+   "slug": "entrevista-cnn-com-passos-coelho-comecaram-a-faltar-professores-com-costa-perdeu-se-qualidade-ministros-dos-dois-governos-explicam-o-que-falhou",
+   "title": "Entrevista CNN: Com Passos Coelho começaram a faltar professores, com Costa perdeu-se &#8220;qualidade&#8221;. Ministros dos dois governos explicam o que falhou",
+   "cats": [
+    59
+   ],
+   "date": "2024-10-25"
+  },
+  {
+   "id": 2385,
+   "slug": "2385",
+   "title": "",
+   "cats": [
+    1
+   ],
+   "date": "2024-09-25"
+  },
+  {
+   "id": 2382,
+   "slug": "now-back-to-the-hard-sciences",
+   "title": "Now, back to the hard sciences…",
+   "cats": [
+    1
+   ],
+   "date": "2024-09-25"
+  },
+  {
+   "id": 2379,
+   "slug": "2379",
+   "title": "",
+   "cats": [
+    1
+   ],
+   "date": "2024-09-25"
+  },
+  {
+   "id": 2373,
+   "slug": "acaba-de-salir-en-madrid",
+   "title": "ACABA DE SALIR EN MADRID",
+   "cats": [
+    1
+   ],
+   "date": "2024-09-19"
+  },
+  {
+   "id": 2214,
+   "slug": "la-educacion-en-espana-y-portugal-situacion-actual-y-lecciones-de-las-reformas-de-las-ultimas-decadas",
+   "title": "La educación en España y Portugal: situación actual y lecciones de las reformas de las últimas décadas",
+   "cats": [
+    43
+   ],
+   "date": "2024-01-03"
+  },
+  {
+   "id": 2211,
+   "slug": "ex-ministro-da-educacao-de-portugal-defende-curriculo-baseado-em-disciplinas",
+   "title": "Ex-ministro da Educação de Portugal defende currículo baseado em disciplinas",
+   "cats": [
+    59
+   ],
+   "date": "2023-10-31"
+  },
+  {
+   "id": 2206,
+   "slug": "un-cafe-con-el-rector-cesar-montano",
+   "title": "Un Café con el Rector César Montaño",
+   "cats": [
+    59
+   ],
+   "date": "2023-10-16"
+  },
+  {
+   "id": 2197,
+   "slug": "nada-e-mais-importante-para-os-nossos-jovens-do-que-tornarem-se-bons-leitores",
+   "title": "Nada é mais importante para os nossos jovens do que tornarem-se bons leitores!",
+   "cats": [
+    50
+   ],
+   "date": "2023-10-16"
+  },
+  {
+   "id": 2168,
+   "slug": "nothing-is-more-important-for-our-students-than-becoming-good-readers-what-pirls-2021-has-just-told-us",
+   "title": "“Nothing is more important for our students than becoming good readers: What PIRLS 2021 has just told us&#8221;",
+   "cats": [
+    45
+   ],
+   "date": "2023-06-08"
+  },
+  {
+   "id": 2171,
+   "slug": "curriculo-avaliacao-e-autonomia-os-segredos-da-subida-de-resultados-educativos-de-um-pais",
+   "title": "Currículo, autonomia e avaliação, os segredos da subida de resultados educativos de um país",
+   "cats": [
+    50
+   ],
+   "date": "2023-06-07"
+  },
+  {
+   "id": 2177,
+   "slug": "2177",
+   "title": "The Learning Lab Event 2023",
+   "cats": [
+    1
+   ],
+   "date": "2023-05-22"
+  },
+  {
+   "id": 2147,
+   "slug": "el-exito-educativo-de-portugal-la-educacion-a-debate-podcast-no-spotify",
+   "title": "El éxito educativo de Portugal — La educación, a debate | Podcast no Spotify",
+   "cats": [
+    59
+   ],
+   "date": "2023-03-18"
+  },
+  {
+   "id": 2144,
+   "slug": "el-exito-educativo-de-portugal-contado-por-uno-de-sus-protagonistas",
+   "title": "<a href=\"https://www.aceprensa.com/educacion/calidad-de-ensenanza/el-exito-educativo-de-portugal-contado-por-uno-de-sus-protagonistas/\">El éxito educativo de Portugal, contado por uno de sus protagonistas</a>",
+   "cats": [
+    59
+   ],
+   "date": "2023-03-18"
+  },
+  {
+   "id": 2139,
+   "slug": "entrevista-ao-jornal-abc-la-exigencia-en-educacion-es-el-arma-de-los-pobres-para-tener-mejor-empleo",
+   "title": "Entrevista ao jornal ABC: «La exigencia en educación es el arma de los pobres para tener mejor empleo»",
+   "cats": [
+    59
+   ],
+   "date": "2023-03-09"
+  },
+  {
+   "id": 2128,
+   "slug": "agir-pour-leducation-comment-ameliorer-leducation-dun-pays-une-perspective-internationale",
+   "title": "Agir pour l&#8217;éducation | «Comment améliorer l’éducation d&#8217;un pays ? Une perspective internationale»",
+   "cats": [
+    45
+   ],
+   "date": "2023-03-08"
+  },
+  {
+   "id": 2105,
+   "slug": "las-pruebas-de-la-education-madrid-19-de-enero",
+   "title": "Las pruebas de la educatión. Madrid 19 de Enero.",
+   "cats": [
+    45
+   ],
+   "date": "2023-01-19"
+  },
+  {
+   "id": 2109,
+   "slug": "soiree-de-lancement-de-linitiative-agir-pour-leducation-18-jan",
+   "title": "Soirée de lancement de l’initiative « Agir pour l’éducation » 18 Jan ( en direct)",
+   "cats": [
+    45
+   ],
+   "date": "2023-01-15"
+  },
+  {
+   "id": 2119,
+   "slug": "entrevista-ao-dn-9-janeiro-acesso-ao-ensino-superior-o-modelo-atual-nao-sendo-perfeito-e-incomparavelmente-melhor",
+   "title": "Entrevista ao DN 9 Janeiro: Acesso ao Ensino Superior: &#8220;O modelo atual, não sendo perfeito, é incomparavelmente melhor&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2023-01-09"
+  },
+  {
+   "id": 2122,
+   "slug": "opiniao-jornal-expresso-9-dez-as-perdas-de-aprendizagem-continuam-reais-e-serias-estaremos-finalmente-a-enfrenta-las",
+   "title": "Opinião Jornal Expresso 9 Dez : As perdas de aprendizagem continuam reais e sérias — estaremos finalmente a enfrentá-las?!",
+   "cats": [
+    59
+   ],
+   "date": "2022-12-09"
+  },
+  {
+   "id": 2103,
+   "slug": "educaixa",
+   "title": "EduCaixa",
+   "cats": [
+    59
+   ],
+   "date": "2022-11-17"
+  },
+  {
+   "id": 2095,
+   "slug": "queen-rania-teacher-academy-forum-2022-schools-to-build-the-future",
+   "title": "Queen Rania Teacher Academy Forum 2022 : Schools to build the future&#8221;",
+   "cats": [
+    43
+   ],
+   "date": "2022-11-16"
+  },
+  {
+   "id": 2089,
+   "slug": "como-apoiar-e-como-abandonar-os-professores-na-batalha-pelo-sucesso-educativo-a-experiencia-de-portugal-entre-1995-e-2020",
+   "title": "Como apoiar e como abandonar os professores na batalha pelo sucesso educativo. A experiência de Portugal entre 1995 e 2020.",
+   "cats": [
+    43
+   ],
+   "date": "2022-11-16"
+  },
+  {
+   "id": 2085,
+   "slug": "forum-mundial-para-a-cidadania-e-educacao-22-23-nov",
+   "title": "Fórum Mundial para a Cidadania e Educação 22-23 Nov",
+   "cats": [
+    45
+   ],
+   "date": "2022-11-16"
+  },
+  {
+   "id": 2079,
+   "slug": "podcast-sala-cheia-ep-07-nuno-crato-caminhos-para-melhorar-a-educacao",
+   "title": "Podcast Sala Cheia | Ep. 07 Nuno Crato: Caminhos para melhorar a Educação",
+   "cats": [
+    59
+   ],
+   "date": "2022-10-06"
+  },
+  {
+   "id": 2076,
+   "slug": "entrevista-ao-publico-4-de-outubro-de-2022-as-malhas-que-a-realidade-tece",
+   "title": "Entrevista ao Público 4 de Outubro de 2022 : As malhas que a realidade tece.",
+   "cats": [
+    59
+   ],
+   "date": "2022-10-04"
+  },
+  {
+   "id": 2064,
+   "slug": "queen-rania-teacher-academy-forum-2022",
+   "title": "Queen Rania Teacher Academy Forum 2022",
+   "cats": [
+    45,
+    1
+   ],
+   "date": "2022-10-01"
+  },
+  {
+   "id": 2073,
+   "slug": "en-educacion-que-tal-si-nos-centramos-en-la-realidad-en-los-datos-minha-entrevista-a-espisteme-acabada-de-publicar",
+   "title": "En Educación, «¿Qué tal si nos centramos en la realidad, en los datos?» Minha entrevista a Espisteme, acabada de publicar.",
+   "cats": [
+    59
+   ],
+   "date": "2022-09-22"
+  },
+  {
+   "id": 2070,
+   "slug": "fundacio-episteme-webinar-portugal-una-reforma-educativa-basada-en-el-conocimiento",
+   "title": "Fundació Episteme webinar: &#8220;Portugal. Una reforma educativa basada en el conocimiento&#8221;",
+   "cats": [
+    45
+   ],
+   "date": "2022-09-19"
+  },
+  {
+   "id": 2067,
+   "slug": "encerramento-no-encontro-da-sociedade-portuguesa-da-fisica-fc-da-u-porto",
+   "title": "Encerramento no Encontro da Sociedade Portuguesa da Física, FC da U Porto",
+   "cats": [
+    45
+   ],
+   "date": "2022-09-08"
+  },
+  {
+   "id": 2061,
+   "slug": "researched-national-conferece-2022-london",
+   "title": "researchED National Conferece 2022 London",
+   "cats": [
+    45
+   ],
+   "date": "2022-08-31"
+  },
+  {
+   "id": 2057,
+   "slug": "o-preditor-de-mares-de-kelvin-um-fantastico-instrumento-centifico-em-exibicao-no-instituto-hidrografico",
+   "title": "O Preditor de Marés de Kelvin, um fantástico instrumento científico em exibição no Instituto Hidrográfico.",
+   "cats": [
+    59
+   ],
+   "date": "2022-07-30"
+  },
+  {
+   "id": 2053,
+   "slug": "entrevista-ao-publico-mas-afinal-para-que-servem-os-rankings",
+   "title": "Entrevista ao Público: Mas afinal, para que servem os rankings?",
+   "cats": [
+    59
+   ],
+   "date": "2022-07-08"
+  },
+  {
+   "id": 2048,
+   "slug": "sessao-solene-festas-de-sao-joao-da-vila",
+   "title": "Sessão Solene festas de São João da Vila.",
+   "cats": [
+    59
+   ],
+   "date": "2022-06-19"
+  },
+  {
+   "id": 2045,
+   "slug": "competence-centre-on-microeconomic-evaluation-event-10-june",
+   "title": "Competence Centre on Microeconomic Evaluation Event: 10 June",
+   "cats": [
+    45
+   ],
+   "date": "2022-06-06"
+  },
+  {
+   "id": 2036,
+   "slug": "el-diari-de-leducacio-es-cosa-de-tots",
+   "title": "El Diari de l&#8217;Educació &#8211; És cosa de tots",
+   "cats": [
+    59
+   ],
+   "date": "2022-05-31"
+  },
+  {
+   "id": 2033,
+   "slug": "entrevista-ao-diario-de-noticias-19-de-maio-2022",
+   "title": "Entrevista ao Diário de Notícias 19 de Maio 2022.",
+   "cats": [
+    59
+   ],
+   "date": "2022-05-28"
+  },
+  {
+   "id": 2026,
+   "slug": "math-curriculum-matters",
+   "title": "Math curriculum matters",
+   "cats": [
+    43
+   ],
+   "date": "2022-05-28"
+  },
+  {
+   "id": 2021,
+   "slug": "what-works-embedding-in-education-recovery",
+   "title": "What works? Embedding in education recovery",
+   "cats": [
+    45
+   ],
+   "date": "2022-05-25"
+  },
+  {
+   "id": 2006,
+   "slug": "spm-sociedade-portuguesa-de-matematica",
+   "title": "SPM: Sociedade Portuguesa de Matemática",
+   "cats": [
+    59
+   ],
+   "date": "2022-03-23"
+  },
+  {
+   "id": 1988,
+   "slug": "a-ultima-licao-do-matematico-humanista-nuno-crato",
+   "title": "&#8220;A última lição do matemático humanista Nuno Crato&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2022-03-21"
+  },
+  {
+   "id": 1983,
+   "slug": "condecoracao-com-a-gra-cruz-da-ordem-da-instrucao-publica",
+   "title": "Condecoração com a Grã-Cruz da Ordem da Instrução Pública. ",
+   "cats": [
+    1
+   ],
+   "date": "2022-03-18"
+  },
+  {
+   "id": 1962,
+   "slug": "seminario-internacional-de-educacion-integral-siei-16-17-e-18-de-marco",
+   "title": "Seminario Internacional de Educación Integral (SIEI) 16, 17 e 18 de Março.",
+   "cats": [
+    45
+   ],
+   "date": "2022-03-13"
+  },
+  {
+   "id": 1976,
+   "slug": "ultima-aula-11-de-marco",
+   "title": "Última Aula 11 de Março",
+   "cats": [
+    1
+   ],
+   "date": "2022-03-07"
+  },
+  {
+   "id": 1968,
+   "slug": "spes-libertatis-um-podcast-de-ricardo-luz",
+   "title": "Spes Libertatis: um podcast de Ricardo Luz.",
+   "cats": [
+    59
+   ],
+   "date": "2022-02-07"
+  },
+  {
+   "id": 1958,
+   "slug": "entrevista-porto-canal-24-de-janeiro-de-2022",
+   "title": "Entrevista Porto Canal 24 de Janeiro de 2022.",
+   "cats": [
+    59
+   ],
+   "date": "2022-01-26"
+  },
+  {
+   "id": 1952,
+   "slug": "a-educacao-ausente-entrevista-sic-noticias-15-de-janeiro",
+   "title": "A EDUCAÇÃO AUSENTE. Entrevista SIC Notícias 15 de Janeiro.",
+   "cats": [
+    59
+   ],
+   "date": "2022-01-16"
+  },
+  {
+   "id": 1945,
+   "slug": "what-makes-estonia-so-good-at-pisa-pre-opening-of-the-lese-lisbon-economics-and-statistics-and-education-conference-at-iseg",
+   "title": "WHAT MAKES ESTONIA SO GOOD AT PISA? Pre-opening of the LESE – Lisbon Economics and Statistics and Education Conference at ISEG.",
+   "cats": [
+    45,
+    1
+   ],
+   "date": "2022-01-16"
+  },
+  {
+   "id": 1940,
+   "slug": "entrevista-sic-noticias-janeiro-2022",
+   "title": "Entrevista SIC Notícias Janeiro 2022",
+   "cats": [
+    59
+   ],
+   "date": "2022-01-02"
+  },
+  {
+   "id": 1931,
+   "slug": "2022-lese-conference",
+   "title": "2022 LESE Conference",
+   "cats": [
+    45
+   ],
+   "date": "2021-12-13"
+  },
+  {
+   "id": 1934,
+   "slug": "international-institute-of-forecasters-workshop-forecasting-in-a-changing-environment",
+   "title": "International Institute of Forecasters Workshop: Forecasting in a changing environment.",
+   "cats": [
+    45
+   ],
+   "date": "2021-12-04"
+  },
+  {
+   "id": 126,
+   "slug": "if-anyone-fights-anyone-of-us-hes-gotta-fight-with-me-2",
+   "title": "Our latest Book: Improving a Country&#8217;s Education- Pisa Results in 10 Countries",
+   "cats": [
+    58,
+    1
+   ],
+   "date": "2021-11-30"
+  },
+  {
+   "id": 1919,
+   "slug": "entrevista-ao-publico-18-de-novembro",
+   "title": "Entrevista ao Público 18 de Novembro",
+   "cats": [
+    59
+   ],
+   "date": "2021-11-19"
+  },
+  {
+   "id": 1924,
+   "slug": "entrevista-sic-noticias-18-novembro",
+   "title": "Entrevista Sic Notícias 18 Novembro",
+   "cats": [
+    59
+   ],
+   "date": "2021-11-19"
+  },
+  {
+   "id": 1911,
+   "slug": "tomorrow-summit-25-26-e-27-de-novembro",
+   "title": "Tomorrow Summit 25, 26 e 27 de Novembro",
+   "cats": [
+    45
+   ],
+   "date": "2021-11-17"
+  },
+  {
+   "id": 1915,
+   "slug": "de-portas-abertas-a-ciencia-e-tecnologia-2021",
+   "title": "EVENTO: Semana da Ciência e Tecnologia 2021",
+   "cats": [
+    45
+   ],
+   "date": "2021-11-17"
+  },
+  {
+   "id": 1901,
+   "slug": "event-porto-fight-against-functional-illiteracy",
+   "title": "EVENT: Porto &#8211; Fight Against Functional Illiteracy",
+   "cats": [
+    45
+   ],
+   "date": "2021-11-06"
+  },
+  {
+   "id": 1880,
+   "slug": "interview-at-the-de-standaard-belgium",
+   "title": "Interview at the De Standaard, Belgium.",
+   "cats": [
+    59
+   ],
+   "date": "2021-10-27"
+  },
+  {
+   "id": 1875,
+   "slug": "como-pode-a-ciencia-informar-a-educacao",
+   "title": "Como pode a Ciência informar a Educação?",
+   "cats": [
+    59
+   ],
+   "date": "2021-10-18"
+  },
+  {
+   "id": 1856,
+   "slug": "researched-belgium-21",
+   "title": "ResearchED Belgium 21",
+   "cats": [
+    45
+   ],
+   "date": "2021-10-17"
+  },
+  {
+   "id": 1871,
+   "slug": "fic-a",
+   "title": "FIC.A",
+   "cats": [
+    1
+   ],
+   "date": "2021-10-17"
+  },
+  {
+   "id": 1868,
+   "slug": "mi-entrevista-hoy-al-periodico-magisteriosi-bajan-las-metas-la-futura-generacion-sufrira",
+   "title": "MI ENTREVISTA HOY AL PERIÓDICO MAGISTERIO:“Si bajan las metas, la futura generación sufrirá”",
+   "cats": [
+    59
+   ],
+   "date": "2021-10-14"
+  },
+  {
+   "id": 1863,
+   "slug": "etec-icesco-international-webinar-how-international-large-scale-assessments-from-the-last-20-years-can-inform-policy-and-practice-global-lessons-to-improve-education-quality",
+   "title": "ETEC-ICESCO International Webinar: &#8220;How International Large-Scale Assessments from the Last 20 years can Inform Policy and Practice: Global Lessons to Improve Education Quality&#8221;",
+   "cats": [
+    45,
+    43,
+    58
+   ],
+   "date": "2021-10-05"
+  },
+  {
+   "id": 1850,
+   "slug": "evento-discussao-do-livro-tareas-pendientes-aciertos-y-errores-de-31-exministros-para-pensar-el-futuro-de-la-educacion-7-de-outubro-17h",
+   "title": "Evento: Discussão do livro Tareas pendientes: Aciertos y errores de 31 exministros para pensar el futuro de la educación | 7 de Outubro | 17h",
+   "cats": [
+    45,
+    1
+   ],
+   "date": "2021-09-30"
+  },
+  {
+   "id": 1840,
+   "slug": "entrevista-expresso",
+   "title": "Entrevista Expresso",
+   "cats": [
+    59
+   ],
+   "date": "2021-09-20"
+  },
+  {
+   "id": 1845,
+   "slug": "entrevista-ao-dn",
+   "title": "Entrevista ao DN",
+   "cats": [
+    59
+   ],
+   "date": "2021-09-17"
+  },
+  {
+   "id": 1835,
+   "slug": "relationship-between-equity-and-excellence-in-education-multilevel-analysis-of-international-students-assessment-data-with-a-focus-on-turkey",
+   "title": "Relationship between equity and excellence in education: Multilevel analysis of international students assessment data with a focus on Turkey.",
+   "cats": [
+    43,
+    58
+   ],
+   "date": "2021-09-14"
+  },
+  {
+   "id": 1829,
+   "slug": "a-fragmented-periodogram-approach-for-clustering-big-data-time-series",
+   "title": "A fragmented-periodogram approach for clustering big data time series",
+   "cats": [
+    43,
+    58
+   ],
+   "date": "2021-09-14"
+  },
+  {
+   "id": 1825,
+   "slug": "event",
+   "title": "EVENT",
+   "cats": [
+    58,
+    1
+   ],
+   "date": "2021-09-01"
+  },
+  {
+   "id": 1816,
+   "slug": "entrevista-ao-dn-madeira",
+   "title": "Entrevista ao DN Madeira",
+   "cats": [
+    59
+   ],
+   "date": "2021-07-27"
+  },
+  {
+   "id": 1813,
+   "slug": "podcast-nota-20-13",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-07-06"
+  },
+  {
+   "id": 1810,
+   "slug": "podcast-nota-20-12",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-29"
+  },
+  {
+   "id": 1807,
+   "slug": "podcast-nota-20-11",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-23"
+  },
+  {
+   "id": 1791,
+   "slug": "podcast-nota-20-10",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-15"
+  },
+  {
+   "id": 1796,
+   "slug": "entrevista-com-beatriz-santos",
+   "title": "Entrevista com  Beatriz Santos",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-14"
+  },
+  {
+   "id": 1399,
+   "slug": "cambridge-presentation-education-improvement-the-case-of-portugal",
+   "title": "CAMBRIDGE PRESENTATION: Education Improvement: The Case of Portugal",
+   "cats": [
+    43,
+    58
+   ],
+   "date": "2021-06-12"
+  },
+  {
+   "id": 1390,
+   "slug": "lessons-learned-from-pisa-2018-statistics-and-other-international-student-assessments",
+   "title": "Lessons Learned from PISA 2018 Statistics and Other International Student Assessments",
+   "cats": [
+    43,
+    58
+   ],
+   "date": "2021-06-10"
+  },
+  {
+   "id": 1393,
+   "slug": "assessment-background-what-pisa-measures-and-how",
+   "title": "Assessment Background: What PISA Measures and How",
+   "cats": [
+    43
+   ],
+   "date": "2021-06-09"
+  },
+  {
+   "id": 1783,
+   "slug": "podcast-nota-20-9",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-08"
+  },
+  {
+   "id": 1780,
+   "slug": "podcast-nota-20-8",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-06-01"
+  },
+  {
+   "id": 1777,
+   "slug": "podcast-nota-20-7",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-05-25"
+  },
+  {
+   "id": 1774,
+   "slug": "podcast-nota-20-6",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-05-19"
+  },
+  {
+   "id": 1768,
+   "slug": "podcast-nota-20-ciencias-matematica-e-engenharias-para-que",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-05-11"
+  },
+  {
+   "id": 1752,
+   "slug": "podcast-of-nova-economics-club",
+   "title": "Podcast of Nova Economics Club",
+   "cats": [
+    59
+   ],
+   "date": "2021-05-09"
+  },
+  {
+   "id": 1764,
+   "slug": "podcast-nota-20-5",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-05-04"
+  },
+  {
+   "id": 1748,
+   "slug": "event-global-student-summit-wednesday-12-may-2021-1300-1530-gmt",
+   "title": "Event: Global Student Summit. Wednesday 12 May 2021 | 13:00-15:30 GMT",
+   "cats": [
+    45
+   ],
+   "date": "2021-04-29"
+  },
+  {
+   "id": 1742,
+   "slug": "money-money-money-o-problema-e-a-escola-no-contexto-da-pandemia-ou-a-escola-tal-como-sempre-a-conhecemos",
+   "title": "Podcast Money, Money, Money",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-28"
+  },
+  {
+   "id": 1738,
+   "slug": "five-questions-to-ask-if-you-think-teaching-problem-solving-works-by-john-sweller",
+   "title": "Five questions to ask if you think teaching problem-solving works. By John Sweller",
+   "cats": [
+    43,
+    1
+   ],
+   "date": "2021-04-27"
+  },
+  {
+   "id": 1759,
+   "slug": "podcast-nota-20-4",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-27"
+  },
+  {
+   "id": 1735,
+   "slug": "podcast-nota-20-3",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-20"
+  },
+  {
+   "id": 1728,
+   "slug": "podcast-nota-20",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-13"
+  },
+  {
+   "id": 1723,
+   "slug": "debate-rtp2-9-de-abril-a-importancia-da-avaliacao",
+   "title": "Debate RTP2 9 de Abril: A importância da avaliação.&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-09"
+  },
+  {
+   "id": 1731,
+   "slug": "podcast-nota-20-2",
+   "title": "Podcast Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-06"
+  },
+  {
+   "id": 1716,
+   "slug": "event-economia-viva-nova-sbe",
+   "title": "Event: Economia Viva. Nova SBE",
+   "cats": [
+    1
+   ],
+   "date": "2021-04-05"
+  },
+  {
+   "id": 1702,
+   "slug": "podcast-nota-2",
+   "title": "Podcast  Nota 20",
+   "cats": [
+    59
+   ],
+   "date": "2021-04-05"
+  },
+  {
+   "id": 1678,
+   "slug": "evento-a-educacao-aos-olhos-de-um-professor",
+   "title": "Evento 6 de Abril: &#8220;A Educação&#8230;aos Olhos de um Professor&#8221;",
+   "cats": [
+    1
+   ],
+   "date": "2021-04-03"
+  },
+  {
+   "id": 1668,
+   "slug": "entrevista-ao-diario-de-noticias-27-de-marco",
+   "title": "Entrevista ao Diário de Notícias, 27 de Março",
+   "cats": [
+    59
+   ],
+   "date": "2021-03-28"
+  },
+  {
+   "id": 1663,
+   "slug": "podcast-irrevogavel-visao",
+   "title": "Podcast: Irrevogável &#8211; Visão",
+   "cats": [
+    59
+   ],
+   "date": "2021-03-25"
+  },
+  {
+   "id": 1657,
+   "slug": "posdcast-a-conversar-e-que-a-gente-se-entende",
+   "title": "Posdcast: A conversar é que a gente se entende",
+   "cats": [
+    59
+   ],
+   "date": "2021-03-17"
+  },
+  {
+   "id": 1653,
+   "slug": "spm-webinares-debate-sobre-o-ensino-da-matematica",
+   "title": "SPM Webinares: Debate sobre o Ensino da Matemática",
+   "cats": [
+    45
+   ],
+   "date": "2021-03-12"
+  },
+  {
+   "id": 1650,
+   "slug": "entrevista-sic-noticias-10-de-marco",
+   "title": "Entrevista Sic Notícias, 10 de Março",
+   "cats": [
+    59
+   ],
+   "date": "2021-03-12"
+  },
+  {
+   "id": 1545,
+   "slug": "webinar-2-march",
+   "title": "Webinar, March 2, 10:30 GMT",
+   "cats": [
+    45
+   ],
+   "date": "2021-02-26"
+  },
+  {
+   "id": 1564,
+   "slug": "webinar-march-2-800-gmt",
+   "title": "Webinar March 2, 8:00 GMT",
+   "cats": [
+    1
+   ],
+   "date": "2021-02-25"
+  },
+  {
+   "id": 1535,
+   "slug": "entrevista-sic-noticias",
+   "title": "Entrevista Sic Notícias, 23 Fevereiro",
+   "cats": [
+    59
+   ],
+   "date": "2021-02-24"
+  },
+  {
+   "id": 1274,
+   "slug": "alunos-em-casa-entrevista-ao-jornal-2",
+   "title": "Alunos em Casa: Entrevista ao Jornal 2",
+   "cats": [
+    59
+   ],
+   "date": "2021-02-10"
+  },
+  {
+   "id": 1259,
+   "slug": "ensino-a-distancia-uma-pausa-como-esta-pode-significar-22-do-pib-futuro",
+   "title": "Ensino à distância. &#8220;Uma pausa como esta pode significar 2,2% do PIB futuro&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2021-02-07"
+  },
+  {
+   "id": 1138,
+   "slug": "ha-custos-de-encerramento-das-escolas-muito-graves",
+   "title": "&#8220;Há custos de encerramento das escolas muito graves&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2021-02-01"
+  },
+  {
+   "id": 140,
+   "slug": "my-mother-still-refers-to-this-as-the-time-i-ran-away-from-home",
+   "title": "Setting up the Scene: Lessons Learned from PISA 2018 Statistics and Other International Student Assessments",
+   "cats": [
+    58
+   ],
+   "date": "2021-01-29"
+  },
+  {
+   "id": 127,
+   "slug": "webinar-book-launch",
+   "title": "La discusión del caso portugués y del suceso educativo hasta 2015",
+   "cats": [
+    43
+   ],
+   "date": "2021-01-29"
+  },
+  {
+   "id": 1270,
+   "slug": "la-grande-illusion-a-grande-ilusao",
+   "title": "La Grande Illusion &#8211; A Grande Ilusão",
+   "cats": [
+    57,
+    1
+   ],
+   "date": "2020-12-12"
+  },
+  {
+   "id": 137,
+   "slug": "nam-dicunt-appetere-dissentiet-eu",
+   "title": "TIMSS results",
+   "cats": [
+    50,
+    1
+   ],
+   "date": "2020-12-07"
+  },
+  {
+   "id": 1131,
+   "slug": "improving-a-countrys-education-pisa-2018-results-in-10-countries",
+   "title": "Improving a Country’s Education: Pisa 2018 Results in 10 Countries",
+   "cats": [
+    45
+   ],
+   "date": "2020-12-03"
+  },
+  {
+   "id": 1228,
+   "slug": "bajar-la-exigencia-no-ayuda-a-los-alumnos-entrevista-ao-jornal-el-mundo",
+   "title": "&#8220;Bajar la exigencia no ayuda a los alumnos&#8221;",
+   "cats": [
+    57
+   ],
+   "date": "2020-12-02"
+  },
+  {
+   "id": 123,
+   "slug": "interpreting-pisa",
+   "title": "Interpreting PISA- The case of Portugal",
+   "cats": [
+    45
+   ],
+   "date": "2020-11-22"
+  },
+  {
+   "id": 1405,
+   "slug": "entrevista-educare-pt",
+   "title": "Entrevista educare.pt",
+   "cats": [
+    57
+   ],
+   "date": "2020-09-09"
+  },
+  {
+   "id": 1417,
+   "slug": "entrevista-rtp-360",
+   "title": "Entrevista RTP 360: As dificuldades no arranque do novo ano letivo.",
+   "cats": [
+    59
+   ],
+   "date": "2020-09-09"
+  },
+  {
+   "id": 1243,
+   "slug": "entrevista-sic-noticias-a-importancia-das-aulas-presencias",
+   "title": "Entrevista SIC Noticias:  A importância das aulas presencias.",
+   "cats": [
+    59
+   ],
+   "date": "2020-09-02"
+  },
+  {
+   "id": 134,
+   "slug": "the-first-thing-i-remember-liking-that-liked-me-back-was-food",
+   "title": "&#8220;Ensino à distância pode ser positivo, mas como complemento.&#8221;",
+   "cats": [
+    59
+   ],
+   "date": "2020-06-21"
+  },
+  {
+   "id": 133,
+   "slug": "nihil-facilisi-forensibus-te-nec-ius-iusto-denique-et",
+   "title": "Letters to a new minister: A few things I wish I knew when I came to office",
+   "cats": [
+    57
+   ],
+   "date": "2020-05-05"
+  },
+  {
+   "id": 120,
+   "slug": "we-got-a-right-to-pick-a-little-fight-bonanza",
+   "title": "A fragmented-periodogram approach for clustering big data time series.",
+   "cats": [
+    58
+   ],
+   "date": "2019-06-30"
+  },
+  {
+   "id": 128,
+   "slug": "impossible-things-will-happen-that-the-worlds-never-seen-before",
+   "title": "O Eclipse da Relatividade",
+   "cats": [
+    1
+   ],
+   "date": "2019-05-20"
+  },
+  {
+   "id": 132,
+   "slug": "eipuit-scripserit-eu-nec-ius-no-inermis-detracto-legendos",
+   "title": "Everything starts with the curriculum",
+   "cats": [
+    57
+   ],
+   "date": "2019-02-27"
+  },
+  {
+   "id": 802,
+   "slug": "a-educacao-deve-falar-com-a-ciencia-podcast-nota-20-observador",
+   "title": "Podcast Nota 20 -Observador",
+   "cats": [
+    59
+   ],
+   "date": "2019-02-25"
+  },
+  {
+   "id": 130,
+   "slug": "when-things-go-boom-in-dexters-lab",
+   "title": "Chapter 8",
+   "cats": [
+    57
+   ],
+   "date": "2018-04-08"
+  },
+  {
+   "id": 131,
+   "slug": "my-name-is-rhoda-morgenstern",
+   "title": "Assessment Background: What PISA Measures and How",
+   "cats": [
+    58,
+    1
+   ],
+   "date": "2017-11-23"
+  },
+  {
+   "id": 143,
+   "slug": "new-york-this-is-your-last-chance",
+   "title": "Tests for comparing time series of unequal lengths",
+   "cats": [
+    58,
+    1
+   ],
+   "date": "2016-04-07"
+  },
+  {
+   "id": 135,
+   "slug": "i-had-a-bad-puberty-it-lasted-seventeen-years",
+   "title": "Tests for comparing time series of unequal lengths",
+   "cats": [
+    1
+   ],
+   "date": "2011-05-28"
+  }
+ ]
+}
