@@ -2,7 +2,7 @@
 # Titles of works stay in their original language; only UI text and English descriptions are translated.
 T = {
 # nav / common
-"Research":"Investigação","Publications":"Publicações","Education":"Educação","Presentations":"Apresentações","Media":"Media","About":"Sobre",
+"Research":"Investigação","Publications":"Publicações","Books":"Livros","Education":"Educação","Presentations":"Apresentações","Media":"Media","About":"Sobre",
 "ISEG — University of Lisbon":"ISEG — Universidade de Lisboa","Cemapre / REM":"Cemapre / REM",
 # index
 "Statistics · Education · Public policy":"Estatística · Educação · Políticas públicas",
@@ -19,7 +19,7 @@ T = {
 "¡Sí! ¡La educación puede mejorar! · SUMUN 2026, Panamá":"¡Sí! ¡La educación puede mejorar! · SUMUN 2026, Panamá",
 "Um futuro a ler e a escrever · Book 2.0, Lisbon":"Um futuro a ler e a escrever · Book 2.0, Lisboa",
 "July 2026 · TV Debate":"Julho de 2026 · Debate televisivo","May 2026 · Podcast":"Maio de 2026 · Podcast",
-"All media &amp; events →":"Todos os media e eventos →","Books":"Livros","All publications →":"Todas as publicações →",
+"All media &amp; events →":"Todos os media e eventos →","Books":"Livros","All books →":"Todos os livros →",
 "Research profiles":"Perfis de investigação","Cemapre publications":"Publicações do Cemapre",
 "© 2026 · nunocrato.org":"© 2026 · nunocrato.org",
 # about

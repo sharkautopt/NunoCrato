@@ -14,7 +14,7 @@ SECTIONS = {"research", "publications", "education", "presentations", "media", "
 META = {
  "index": ("Nuno Crato — ISEG, Universidade de Lisboa", "Nuno Crato — Professor Catedrático de Matemática e Estatística no ISEG, Universidade de Lisboa. Antigo Ministro da Educação e Ciência de Portugal (2011–2015). Estatístico, autor e divulgador de ciência."),
  "research": ("Investigação — Nuno Crato", "Investigação de Nuno Crato — modelos estocásticos, econometria, séries temporais e avaliação estatística de políticas de educação. Artigos selecionados e perfis de investigação."),
- "publications": ("Publicações — Nuno Crato", "Livros, artigos académicos e ensaios de Nuno Crato — matemática, estatística, políticas de educação e história da ciência. Duas décadas de escrita para públicos académicos e gerais."),
+ "publications": ("Livros — Nuno Crato", "Livros, artigos académicos e ensaios de Nuno Crato — matemática, estatística, políticas de educação e história da ciência. Duas décadas de escrita para públicos académicos e gerais."),
  "education": ("Educação — Nuno Crato", "O trabalho de Nuno Crato sobre reforma curricular, avaliações internacionais (PISA, TIMSS, PIRLS), formação de professores e equidade educativa — em Portugal e no mundo."),
  "presentations": ("Apresentações — Nuno Crato", "Conferências e apresentações de Nuno Crato — sobre reforma da educação, matemática e política científica. Diapositivos disponíveis para descarregar."),
  "media": ("Media — Nuno Crato", "Aparições nos media, entrevistas, podcasts, artigos de opinião e publicações académicas de Nuno Crato — educação, matemática, política científica e assuntos públicos."),

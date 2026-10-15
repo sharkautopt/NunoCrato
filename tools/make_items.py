@@ -12,9 +12,9 @@ import pt_strings
 
 DOCS, BASE = "docs", "https://www.nunocrato.org/"
 PERSON = {"@type": "Person", "name": "Nuno Crato", "url": BASE}
-UI = {"en": dict(back_e="← Events", back_b="← Publications", add="Add to calendar", when="When", where="Where", cover="Cover of",
+UI = {"en": dict(back_e="← Events", back_b="← Books", add="Add to calendar", when="When", where="Where", cover="Cover of",
                  ev_label="Event", bk_label="Book", pub="Publisher"),
-      "pt": dict(back_e="← Eventos", back_b="← Publicações", add="Adicionar ao calendário", when="Quando", where="Onde", cover="Capa de",
+      "pt": dict(back_e="← Eventos", back_b="← Livros", add="Adicionar ao calendário", when="Quando", where="Onde", cover="Capa de",
                  ev_label="Evento", bk_label="Livro", pub="Editora")}
 
 

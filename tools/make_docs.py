@@ -13,8 +13,8 @@ import viewlib
 DOCS = "docs"
 BASE = "https://www.nunocrato.org/"
 SECTION_PAGES = ["research", "publications", "education", "presentations", "media", "about"]
-SECTION_LABEL = {"en": {"research": "Research", "publications": "Publications", "education": "Education", "presentations": "Presentations", "media": "Media", "about": "About"},
-                 "pt": {"research": "Investigação", "publications": "Publicações", "education": "Educação", "presentations": "Apresentações", "media": "Media", "about": "Sobre"}}
+SECTION_LABEL = {"en": {"research": "Research", "publications": "Books", "education": "Education", "presentations": "Presentations", "media": "Media", "about": "About"},
+                 "pt": {"research": "Investigação", "publications": "Livros", "education": "Educação", "presentations": "Apresentações", "media": "Media", "about": "Sobre"}}
 UI = {"en": dict(back="←", download="Download PDF", open="Open in new tab", pages="pages", page="page", doc="Document", tap="Tap the preview to open the PDF.",
                  eyebrow_suffix=""),
       "pt": dict(back="←", download="Descarregar PDF", open="Abrir num novo separador", pages="páginas", page="página", doc="Documento", tap="Toque na pré-visualização para abrir o PDF.",
