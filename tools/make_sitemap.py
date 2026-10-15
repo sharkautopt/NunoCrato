@@ -10,9 +10,10 @@ for p in pages:
         rows.append(f"<url><loc>{url}</loc><lastmod>{today}</lastmod>"
                     f'<xhtml:link rel="alternate" hreflang="en" href="{en}"/><xhtml:link rel="alternate" hreflang="pt" href="{pt}"/></url>')
 import os
-for n in sorted(os.listdir("docs/view")):
+for kind in ("view", "events", "books"):
+  for n in sorted(os.listdir("docs/" + kind)):
     if n.endswith(".html"):
-        s = n[:-5]; en, pt = B + "view/" + s, B + "pt/view/" + s
+        s = n[:-5]; en, pt = B + kind + "/" + s, B + "pt/" + kind + "/" + s
         for url in (en, pt):
             rows.append(f"<url><loc>{url}</loc><lastmod>{today}</lastmod>"
                         f'<xhtml:link rel="alternate" hreflang="en" href="{en}"/><xhtml:link rel="alternate" hreflang="pt" href="{pt}"/></url>')

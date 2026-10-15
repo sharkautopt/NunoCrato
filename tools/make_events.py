@@ -5,7 +5,7 @@ usage (repo root):  python3 tools/make_pt.py && python3 tools/make_events.py
 Run it after make_pt.py (it uses presentations.html / pt/presentations.html as the page template).
 The page also re-sorts itself in the visitor's browser by today's date, so upcoming/past stay right between rebuilds.
 """
-import datetime, html, json, os, re, sys, urllib.parse
+import datetime, html, json, os, re, sys, unicodedata, urllib.parse
 sys.path.insert(0, os.path.dirname(__file__))
 import viewlib
 
@@ -93,7 +93,7 @@ def entry(e, lang, upcoming):
         links += f'<a class="dl" href="{html.escape(url)}"{ext}>{l[lang]}</a>'
     img = f'<img class="still" src="{"../" if lang == "pt" else ""}{e["image"]}" alt="">' if e.get("image") and upcoming else ""
     return (f'<div class="entry" data-start="{e["start"]}" data-end="{e["end"]}"><div class="when">{when}</div><div>'
-            f'<div class="et">{html.escape(title, quote=False)}</div>'
+            f'<div class="et"><a href="events/{e["start"]}-{re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", e["title"]).encode("ascii", "ignore").decode().lower()).strip("-")[:40]}">{html.escape(title, quote=False)}</a></div>'
             f'<div class="ed">{html.escape(e["desc_" + lang], quote=False)} <em>{html.escape(e["place_" + lang], quote=False)}.</em></div>'
             f'{links}</div></div>\n')
 

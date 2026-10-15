@@ -155,6 +155,6 @@ def footer(c, d):
     c.drawString(20*mm, 10*mm, "Nuno Crato · Curriculum Vitae · nunocrato.org"); c.drawRightString(190*mm, 10*mm, f"{d.page}"); c.restoreState()
 
 doc = SimpleDocTemplate(OUT, pagesize=A4, leftMargin=20*mm, rightMargin=20*mm, topMargin=18*mm, bottomMargin=18*mm,
-                        title="Nuno Crato — Curriculum Vitae (2026)", author="Nuno Crato")
+                        title="Nuno Crato — Curriculum Vitae (2026)", author="Nuno Crato", invariant=1)
 doc.build(s, onFirstPage=footer, onLaterPages=footer)
 print("wrote", OUT)
