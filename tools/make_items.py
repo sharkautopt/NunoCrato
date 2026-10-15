@@ -51,10 +51,17 @@ def add_links():
     lines = open(p, encoding="utf-8").read().split("\n")
     byt = {b["title"]: b["slug"] for b in books()}
     for i, line in enumerate(lines):
-        if '<div class="bookcard">' in line and 'href="books/' not in line:
-            t = re.sub(r"\s+(EN|ES|PT)$", "", md.strip_tags(re.search(r'<div class="bt">(.*?)</div>', line).group(1)))
+        if '<div class="bookcard">' not in line:
+            continue
+        t = re.sub(r"\s+(EN|ES|PT)$", "", md.strip_tags(re.search(r'<div class="bt">(.*?)</div>', line).group(1)))
+        href = f"books/{byt[t]}"
+        if f'<a href="{href}"><img' not in line:
+            line = re.sub(r'(<img [^>]*>)', rf'<a href="{href}">\1</a>', line, 1)
+            line = re.sub(r'(<div class="bt">)(.*?)(</div>)', rf'\1<a href="{href}">\2</a>\3', line, 1)
+        if f'class="dl" href="{href}"' not in line:
             k = line.rindex("</div>")
-            lines[i] = line[:k] + f'<a class="dl" href="books/{byt[t]}">Details</a>' + line[k:]
+            line = line[:k] + f'<a class="dl" href="{href}">Details</a>' + line[k:]
+        lines[i] = line
     open(p, "w", encoding="utf-8").write("\n".join(lines))
 
 

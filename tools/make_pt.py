@@ -80,7 +80,7 @@ def to_pt(page, html):
         attr, q, v = m.group(1), m.group(2), m.group(3)
         if v.startswith(("http", "#", "mailto:", "tel:", "data:", "/", "../")):
             return m.group(0)
-        if v in ("./",) or v in SECTIONS or v.startswith("view/"):
+        if v in ("./",) or v in SECTIONS or v.startswith(("view/", "books/", "events/")):
             return m.group(0)
         return f"{attr}={q}../{v}{q}"
     head = re.sub(r'\b(href|src)=(["\'])([^"\']*)\2', fix_ref, head)

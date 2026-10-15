@@ -101,3 +101,4 @@ h1.doc-title{font-size:clamp(30px,4.4vw,48px);line-height:1.12;letter-spacing:-0
 .mfilter .mcount{font-family:var(--mono);font-size:12px;color:var(--sage);margin-left:auto}
 .mfilter-empty{font-family:var(--mono);font-size:14px;color:var(--sage);padding:24px 0}
 [hidden]{display:none!important}
+.bookcard a:not(.dl){color:inherit;text-decoration:none}.bookcard .bt a:hover{color:var(--moss)}
