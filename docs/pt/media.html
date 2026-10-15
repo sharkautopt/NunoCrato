@@ -44,6 +44,7 @@
 </header>
 <section class="pagehead"><p class="eyebrow">Imprensa · Entrevistas · Opinião · Académico</p><h1>Media</h1><p class="intro">Seleção de cobertura de imprensa, entrevistas, artigos de opinião e publicações académicas.</p></section>
 <div class="container">
+<div id="mfilter-slot"></div>
 <h2 class="sec">Publicações académicas</h2>
 <div class="entry"><div class="when">2022 · out</div><div><div class="et">Textbooks and Mathematics Curriculum</div><div class="ed">Publicado numa revista europeia de educação matemática.</div><a class="dl" href="view/5440-texto-del-articulo-10491-3-10-20221027">PDF</a></div></div>
 <div class="entry"><div class="when">2022 · jun</div><div><div class="et">Math Curriculum Matters</div><div class="ed">European Mathematical Society Magazine, vol. 124, pp. 49–56.</div><a class="dl" href="view/20220600-ems-math-curriculum-matters">PDF</a></div></div>
@@ -194,6 +195,31 @@
 </footer>
 <script>
 (function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');if(b&&n){b.addEventListener('click',function(){var open=n.classList.toggle('open');b.setAttribute('aria-expanded',open);});}})();
+</script>
+<script>
+(function(){
+var slot=document.getElementById('mfilter-slot');if(!slot)return;
+var pt=(document.documentElement.lang||'').indexOf('pt')===0;
+var L=pt?{ph:'Pesquisar nos media…',all:'Todos os anos',none:'Nenhum resultado. Experimente outra pesquisa ou outro ano.',n:' resultados',one:' resultado',yr:'Ano'}:{ph:'Search media…',all:'All years',none:'No results. Try another search or year.',n:' results',one:' result',yr:'Year'};
+var entries=[].slice.call(document.querySelectorAll('.container .entry'));
+var secs=[].slice.call(document.querySelectorAll('.container h2.sec'));
+var years={};entries.forEach(function(e){var w=e.querySelector('.when'),m=w&&w.textContent.match(/(19|20)\d\d/);e._y=m?m[0]:'';e._t=e.textContent.toLowerCase();if(e._y)years[e._y]=1;});
+var ys=Object.keys(years).sort().reverse();
+var bar=document.createElement('div');bar.className='mfilter';
+bar.innerHTML='<input type="search" aria-label="'+L.ph+'" placeholder="'+L.ph+'"><select aria-label="'+L.yr+'"><option value="">'+L.all+'</option>'+ys.map(function(y){return '<option>'+y+'</option>';}).join('')+'</select><span class="mcount" aria-live="polite"></span>';
+slot.appendChild(bar);
+var q=bar.querySelector('input'),s=bar.querySelector('select'),c=bar.querySelector('.mcount');
+var empty=document.createElement('p');empty.className='mfilter-empty';empty.hidden=true;empty.textContent=L.none;slot.appendChild(empty);
+function norm(x){return x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+entries.forEach(function(e){e._n=norm(e._t);});
+function run(){var term=norm(q.value.trim()),y=s.value,shown=0;
+entries.forEach(function(e){var ok=(!y||e._y===y)&&(!term||e._n.indexOf(term)>-1);e.hidden=!ok;if(ok)shown++;});
+secs.forEach(function(h){var n=h.nextElementSibling,any=false;while(n&&n.tagName!=='H2'&&n.className.indexOf('foot')<0){if(n.classList&&n.classList.contains('entry')&&!n.hidden)any=true;n=n.nextElementSibling;}h.hidden=!any;});
+empty.hidden=shown>0;c.textContent=(q.value||y)?shown+(shown===1?L.one:L.n):'';
+if(history.replaceState){var u=new URLSearchParams();if(q.value)u.set('q',q.value);if(y)u.set('year',y);history.replaceState(null,'',location.pathname+(u.toString()?'?'+u:''));}}
+q.addEventListener('input',run);s.addEventListener('change',run);
+var p=new URLSearchParams(location.search);if(p.get('q'))q.value=p.get('q');if(p.get('year'))s.value=p.get('year');run();
+})();
 </script>
 </body>
 </html>
