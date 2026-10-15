@@ -58,10 +58,7 @@ Home page "Recent activity" (`index.html`) shows the 5 most recent items; add ne
 
 ## Open items (as of 2026-10-15)
 
-- Valladolid, XXVI Encuentro Internacional de la Inspección de Educación (30 Sep – 2 Oct): not added; participation
-  and year not confirmed.
-- Panamá lecture (17 Sep 2026): host event/organisation unknown.
-- "Machine Learning com Python" presentation (FNAC Colombo, 14 Oct): flyer shows no year; assumed 2026.
+- (resolved 2026-10-15) Valladolid added to the Media page; Panamá host = SUMUN 2026 (Grupo Santillana); FNAC year = 2026.
 - Three old PDFs with accented names were saved with ASCII names
   (`201709-Economistas-na-Educacao-1-1-1.pdf`, `20191210-PISA-2018-Publico-1-1.pdf`,
   `20200624-LUSA-Ensino-a-distancia-PUBLICO-1.pdf`); direct old links to the accented versions are not redirected.
