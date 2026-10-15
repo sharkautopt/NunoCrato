@@ -42,7 +42,8 @@ T = {
 "He has advised and spoken to governments and education organisations across Africa, Europe, South America, the Middle East, and Australia. His distinctions include prizes from the European Mathematical Society (2003) and the European Union (2007), as well as the Commander and Grand Cross of the Order of Prince Henry and the Grand Cross of the Order of Public Instruction.":
 "Aconselhou e falou perante governos e organizações de educação em África, Europa, América do Sul, Médio Oriente e Austrália. Entre as suas distinções contam-se prémios da Sociedade Matemática Europeia (2003) e da União Europeia (2007), bem como o grau de Comendador e a Grã-Cruz da Ordem do Infante D. Henrique e a Grã-Cruz da Ordem da Instrução Pública.",
 "Biographies":"Biografias","English biography (393 words) — PDF":"Biografia em inglês (393 palavras) — PDF",
-"Curriculum Vitae":"Curriculum Vitae","Full CV (2023) — PDF":"CV completo (2023) — PDF","Academic CV — PDF":"CV académico — PDF",
+"Curriculum Vitae":"Curriculum Vitae","Full CV (2023) — PDF":"CV completo (2023) — PDF","Academic CV — PDF":"CV académico — PDF","Curriculum Vitae (updated October 2026) — PDF":"Curriculum Vitae (atualizado em outubro de 2026) — PDF","Academic CV (2016) — PDF":"CV académico (2016) — PDF",
+"Invitations and contact":"Convites e contacto","For speaking invitations, interviews, media requests and academic collaboration, please write to:":"Para convites para conferências, entrevistas, pedidos dos media e colaboração académica, escreva para:",
 # research
 "Statistics · Econometrics · Education":"Estatística · Econometria · Educação",
 "Academic work on stochastic models with applications to economic and social problems, and statistical evaluation of policy measures — mainly in education.":"Trabalho académico sobre modelos estocásticos com aplicações a problemas económicos e sociais, e avaliação estatística de medidas de política — sobretudo na educação.",
