@@ -221,5 +221,11 @@ q.addEventListener('input',run);s.addEventListener('change',run);
 var p=new URLSearchParams(location.search);if(p.get('q'))q.value=p.get('q');if(p.get('year'))s.value=p.get('year');run();
 })();
 </script>
+<script>
+(function(){var pt=(document.documentElement.lang||'').indexOf('pt')===0,skip=/(nunocrato\.org|spotify\.com|youtube\.com|youtu\.be|web\.archive\.org)/;
+document.querySelectorAll('.entry a[href^="http"]').forEach(function(a){if(skip.test(a.href)||a.classList.contains('arc'))return;
+var x=document.createElement('a');x.className='dl arc';x.href='https://web.archive.org/web/2/'+a.href;x.target='_blank';x.rel='noopener';x.textContent=pt?'Arquivo':'Archive';x.title=pt?'Cópia no Internet Archive':'Copy in the Internet Archive';
+var p=a.parentNode;if(a.classList.contains('dl')){a.after(x);}});})();
+</script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+name: Weekly site checks
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Internal links and files
+        run: python3 tools/check_site.py docs
+      - name: External links
+        id: ext
+        continue-on-error: true
+        run: python3 tools/check_external.py docs | tee report.md
+      - name: Open an issue when links are broken
+        if: steps.ext.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Broken external links ($(date +%F))" --body-file report.md
+      - name: Save copies of press links in the Internet Archive
+        continue-on-error: true
+        run: python3 tools/archive_links.py docs/media.html 30
