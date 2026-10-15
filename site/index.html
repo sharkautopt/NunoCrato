@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuno Crato — ISEG, University of Lisbon</title>
+<meta name="description" content="Nuno Crato — Research Professor of Mathematics and Statistics at ISEG, University of Lisbon. Former Minister of Education and Science of Portugal (2011–2015). Statistician, author, and science communicator.">
+<meta name="author" content="Nuno Crato">
+<meta property="og:title" content="Nuno Crato — ISEG, University of Lisbon">
+<meta property="og:description" content="Research Professor of Mathematics and Statistics at ISEG, University of Lisbon. Former Minister of Education and Science of Portugal (2011–2015).">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="https://www.nunocrato.org/wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg">
+<meta property="og:site_name" content="Nuno Crato">
+<meta property="og:url" content="https://www.nunocrato.org/">
+<link rel="canonical" href="https://www.nunocrato.org/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nuno Crato — ISEG, University of Lisbon">
+<meta name="twitter:description" content="Research Professor of Mathematics and Statistics at ISEG, University of Lisbon. Former Minister of Education and Science of Portugal.">
+<meta name="twitter:image" content="https://www.nunocrato.org/wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#13231b;
+  --forest:#1c4532;
+  --moss:#2f6b4f;
+  --sage:#6b8f7a;
+  --paper:#f7f5ef;
+  --paper-2:#efece2;
+  --line:#d8d3c4;
+  --accent:#c2702f;
+  --display:'Fraunces',Georgia,serif;
+  --body:'Newsreader',Georgia,serif;
+  --mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:19px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+
+/* ---------- top bar ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(247,245,239,0.88);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{
+  max-width:1200px;margin:0 auto;padding:0 32px;
+  height:64px;display:flex;align-items:center;justify-content:space-between;
+}
+.brand{
+  font-family:var(--display);
+  font-weight:500;font-size:21px;letter-spacing:-0.01em;
+  text-decoration:none;color:var(--forest);
+}
+.brand span{color:var(--accent)}
+.nav{display:flex;gap:26px}
+.nav a{
+  font-family:var(--mono);
+  font-size:12px;letter-spacing:0.04em;text-transform:uppercase;
+  text-decoration:none;color:var(--ink);opacity:0.72;
+  padding:4px 0;border-bottom:1.5px solid transparent;transition:.18s;
+}
+.nav a:hover{opacity:1;border-bottom-color:var(--accent)}
+.lang{display:flex;gap:2px;margin-left:8px}
+.lang a{
+  font-family:var(--mono);font-size:11px;padding:3px 7px;border-radius:3px;
+  text-decoration:none;opacity:0.6;
+}
+.lang a.on{background:var(--forest);color:var(--paper);opacity:1}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:5px;font-size:18px;line-height:1;padding:7px 11px;cursor:pointer;color:var(--forest)}
+
+/* ---------- hero ---------- */
+.hero{
+  max-width:1200px;margin:0 auto;padding:72px 32px 56px;
+  display:grid;grid-template-columns:1.15fr 1fr;gap:64px;align-items:center;
+}
+.hero-eyebrow{
+  font-family:var(--mono);font-size:12px;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--moss);margin-bottom:22px;
+}
+.hero h1{
+  font-family:var(--display);
+  font-weight:600;font-size:clamp(48px,7vw,86px);line-height:0.96;
+  letter-spacing:-0.025em;color:var(--forest);margin-bottom:26px;
+}
+.hero h1 em{font-style:normal;font-weight:600;color:var(--forest)}
+.hero-lede{
+  font-size:21px;line-height:1.55;max-width:30ch;color:var(--ink);
+}
+.hero-lede a{color:var(--accent);text-underline-offset:3px}
+.hero-meta{
+  margin-top:30px;display:flex;flex-wrap:wrap;gap:10px 8px;
+}
+.tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.04em;
+  padding:6px 12px;border:1px solid var(--line);border-radius:100px;
+  color:var(--moss);background:var(--paper-2);
+}
+.hero-portrait{position:relative}
+.hero-portrait img{
+  width:100%;aspect-ratio:4/5;object-fit:cover;
+  filter:grayscale(1) contrast(1.04);
+  border-radius:3px;
+}
+.hero-portrait::after{
+  content:"ISEG · Lisbon";
+  position:absolute;bottom:0;left:0;
+  font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;
+  background:var(--forest);color:var(--paper);
+  padding:7px 13px;
+}
+
+/* ---------- band ---------- */
+.band{
+  background:var(--forest);color:var(--paper);
+  border-top:1px solid var(--ink);
+}
+.band-inner{
+  max-width:1200px;margin:0 auto;padding:34px 32px;
+  display:flex;flex-wrap:wrap;gap:40px 64px;align-items:baseline;
+}
+.stat{display:flex;flex-direction:column;gap:4px}
+.stat b{
+  font-family:var(--display);font-weight:500;font-size:42px;line-height:1;
+  letter-spacing:-0.02em;
+}
+.stat span{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+  opacity:0.7;
+}
+.band-note{
+  margin-left:auto;max-width:34ch;font-size:16px;line-height:1.5;
+  opacity:0.85;font-style:italic;
+}
+
+/* ---------- main grid ---------- */
+.wrap{max-width:1200px;margin:0 auto;padding:72px 32px 40px;
+  display:grid;grid-template-columns:1.5fr 1fr;gap:72px;}
+.section-label{
+  font-family:var(--mono);font-size:12px;letter-spacing:0.14em;text-transform:uppercase;
+  color:var(--moss);padding-bottom:14px;margin-bottom:8px;
+  border-bottom:2px solid var(--forest);display:flex;justify-content:space-between;align-items:baseline;
+}
+.section-label .count{opacity:0.5;font-size:11px}
+
+/* activity feed */
+.feed-item{
+  display:grid;grid-template-columns:84px 1fr;gap:20px;
+  padding:22px 0;border-bottom:1px solid var(--line);align-items:start;
+  text-decoration:none;color:inherit;transition:.18s;
+}
+.feed-item:hover{padding-left:8px}
+.feed-item:hover .feed-title{color:var(--moss)}
+.feed-thumb{
+  width:84px;height:84px;object-fit:cover;border-radius:2px;
+  filter:grayscale(0.3);
+}
+.feed-when{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--sage);margin-bottom:6px;
+}
+.feed-title{
+  font-family:var(--display);font-weight:500;font-size:21px;line-height:1.22;
+  letter-spacing:-0.01em;transition:.18s;
+}
+.more-link{
+  display:inline-block;margin-top:22px;
+  font-family:var(--mono);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;
+  color:var(--moss);text-decoration:none;border-bottom:1.5px solid var(--moss);
+  padding-bottom:2px;transition:.18s;
+}
+.more-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* books */
+.aside{display:flex;flex-direction:column;gap:36px}
+.book{display:grid;grid-template-columns:72px 1fr;gap:18px;
+  text-decoration:none;color:inherit;align-items:start;}
+.book img{width:72px;border-radius:2px;box-shadow:0 6px 18px rgba(19,35,27,0.16)}
+.book-t{font-family:var(--display);font-weight:500;font-size:17px;line-height:1.2;margin-bottom:5px}
+.book-m{font-family:var(--mono);font-size:11px;letter-spacing:0.04em;color:var(--sage);text-transform:uppercase}
+.profiles{display:flex;flex-direction:column}
+.profiles a{
+  font-family:var(--mono);font-size:13px;letter-spacing:0.02em;
+  text-decoration:none;padding:11px 0;border-bottom:1px solid var(--line);
+  display:flex;justify-content:space-between;align-items:center;transition:.16s;
+}
+.profiles a:hover{color:var(--moss);padding-left:6px}
+.profiles a::after{content:"↗";opacity:0.4;font-size:12px}
+
+/* ---------- footer ---------- */
+.foot{
+  background:var(--ink);color:var(--paper);margin-top:48px;
+}
+.foot-inner{
+  max-width:1200px;margin:0 auto;padding:54px 32px;
+  display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;align-items:flex-end;
+}
+.foot-name{font-family:var(--display);font-size:34px;font-weight:500;letter-spacing:-0.02em;color:var(--paper)}
+.foot-name span{color:var(--accent)}
+.foot-meta{font-family:var(--mono);font-size:11px;letter-spacing:0.06em;line-height:2;opacity:0.65;text-transform:uppercase;text-align:right}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;gap:40px;padding:48px 24px}
+  .hero-portrait{order:-1;max-width:360px}
+  .wrap{grid-template-columns:1fr;gap:48px;padding:48px 24px}
+  .topbar-inner{padding:0 20px}
+  .menu-btn{display:block}
+  .nav{position:absolute;top:64px;left:0;right:0;display:none;flex-direction:column;gap:0;background:var(--paper);border-bottom:1px solid var(--line);padding:6px 24px 14px}
+  .nav.open{display:flex}
+  .nav a{padding:13px 2px;font-size:13px;opacity:0.9;border-bottom:1px solid var(--line)}
+  .nav a:hover{border-bottom-color:var(--line)}
+  .lang{margin-left:0;padding-top:12px;gap:6px}
+  .band-inner{padding:28px 24px;gap:28px 40px}
+  .band-note{margin-left:0;flex-basis:100%}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="/" class="brand">Nuno Crato<span>.</span></a>
+    <nav class="nav" id="site-nav">
+      <a href='/research'>Research</a>
+      <a href='/publications'>Publications</a>
+      <a href='/education'>Education</a>
+      <a href='/presentations'>Presentations</a>
+      <a href='/media'>Media</a>
+      <a href='/about'>About</a>
+      <span class="lang">
+        <a href="#" class="on">EN</a>
+        <a href="#">PT</a>
+      </span>
+    </nav>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Statistics · Education · Public policy</p>
+    <h1>Nuno <em>Crato</em></h1>
+    <p class="hero-lede">Research professor of mathematics and statistics at <a href="https://www.iseg.ulisboa.pt">ISEG — University of Lisbon</a>, and former Minister of Education and Science of Portugal.</p>
+    <div class="hero-meta">
+      <span class="tag">Time series</span>
+      <span class="tag">Spectral analysis</span>
+      <span class="tag">Economics of education</span>
+      <span class="tag">PISA · TIMSS</span>
+    </div>
+  </div>
+  <div class="hero-portrait">
+    <img src="/wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg" alt="Nuno Crato">
+  </div>
+</section>
+
+<div class="band">
+  <div class="band-inner">
+    <div class="stat"><b>2011–15</b><span>Minister of Education &amp; Science</span></div>
+    <div class="stat"><b>10</b><span>Countries · PISA study</span></div>
+    <div class="stat"><b>CSEN</b><span>Conseil scientifique, France</span></div>
+    <p class="band-note">President of Iniciativa Educação, a nonprofit fostering student qualification in Portugal.</p>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="col-main">
+    <div class="section-label"><span>Recent activity</span><span class="count">2026</span></div>
+
+    <a class='feed-item' href='/media'>
+      <img class="feed-thumb" src="/images/fnac-machine-learning-2026-10-14.jpg" alt="">
+      <div>
+        <div class="feed-when">October 2026 · Book presentation</div>
+        <div class="feed-title">Machine Learning com Python, by Jorge Caiado · FNAC Colombo, Lisbon</div>
+      </div>
+    </a>
+
+    <a class='feed-item' href='/presentations'>
+      <img class="feed-thumb" src="/images/panama-2026-09-17.jpg" alt="">
+      <div>
+        <div class="feed-when">September 2026 · Lecture</div>
+        <div class="feed-title">¡Sí! ¡La educación puede mejorar! · Panamá</div>
+      </div>
+    </a>
+
+    <a class='feed-item' href='/presentations'>
+      <img class="feed-thumb" src="/images/book-2-0-2026-09-15.jpg" alt="">
+      <div>
+        <div class="feed-when">September 2026 · Lecture</div>
+        <div class="feed-title">Um futuro a ler e a escrever · Book 2.0, Lisbon</div>
+      </div>
+    </a>
+
+    <a class='feed-item' href='/media'>
+      <img class="feed-thumb" src="/images/sic-noticias-exames-nacionais-digitalizacao.png" alt="">
+      <div>
+        <div class="feed-when">July 2026 · TV Debate</div>
+        <div class="feed-title">Exames nacionais adiados — falhas na digitalização das provas · SIC Notícias</div>
+      </div>
+    </a>
+
+    <a class='feed-item' href='/media'>
+      <img class="feed-thumb" src="/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-04-at-12.59.25.jpeg" alt="">
+      <div>
+        <div class="feed-when">May 2026 · Podcast</div>
+        <div class="feed-title">Para saber mais não basta a curiosidade</div>
+      </div>
+    </a>
+
+    <a class='more-link' href='/media'>All media &amp; events →</a>
+  </div>
+
+  <aside class="aside">
+    <div>
+      <div class="section-label"><span>Books</span><span class="count">04</span></div>
+      <div style="display:flex;flex-direction:column;gap:22px;margin-top:22px">
+        <a class='book' href='/publications'>
+          <img src="/wp-content/uploads/2025/08/image.jpg" alt="O Manual Escolar">
+          <div><div class="book-t">O Manual Escolar</div><div class="book-m">Almedina · 2025</div></div>
+        </a>
+        <a class='book' href='/publications'>
+          <img src="/wp-content/uploads/2025/08/9783030590307.jpg" alt="Improving a Country's Education">
+          <div><div class="book-t">Improving a Country's Education</div><div class="book-m">Springer · 2020</div></div>
+        </a>
+        <a class='book' href='/publications'>
+          <img src="/wp-content/uploads/2025/08/978-3-031-69284-0.jpeg" alt="Improving National Education Systems">
+          <div><div class="book-t">Improving National Education Systems After Covid-19</div><div class="book-m">Springer · 2024</div></div>
+        </a>
+        <a class='book' href='/publications'>
+          <img src="/wp-content/uploads/2025/08/EclipseEinsteinCTT.jpg" alt="Einstein's Eclipse">
+          <div><div class="book-t">Einstein's Eclipse</div><div class="book-m">2021</div></div>
+        </a>
+      </div>
+      <a class='more-link' href='/publications'>All publications →</a>
+    </div>
+
+    <div>
+      <div class="section-label"><span>Research profiles</span></div>
+      <div class="profiles">
+        <a href="https://scholar.google.pt/citations?user=hhmi_QUAAAAJ&hl=pt-PT">Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Nuno_Crato">ResearchGate</a>
+        <a href="http://orcid.org/0000-0002-3572-0396">ORCID</a>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=6602199034">Scopus</a>
+        <a href="https://ulisboa.academia.edu/NunoCrato">Academia.edu</a>
+        <a href="https://cemapre.iseg.ulisboa.pt/publications/?s=a45">Cemapre publications</a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-name">Nuno Crato<span>.</span></div>
+    <div class="foot-meta">
+      ISEG — University of Lisbon<br>
+      Cemapre / REM<br>
+      © 2026 · nunocrato.org
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){var b=document.querySelector('.menu-btn'),n=document.getElementById('site-nav');if(b&&n){b.addEventListener('click',function(){var open=n.classList.toggle('open');b.setAttribute('aria-expanded',open);});}})();
+</script>
+</body>
+</html>
