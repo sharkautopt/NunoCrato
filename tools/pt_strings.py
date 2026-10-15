@@ -95,7 +95,7 @@ T = {
 "Nuno Crato's final lecture at ISEG — March 11, 2022.":"Última aula de Nuno Crato no ISEG — 11 de março de 2022.","ISEG closing lecture.":"Aula de encerramento no ISEG.",
 "Main (PDF)":"Principal (PDF)","Web Brochure":"Brochura web","Seminars &amp; Events":"Seminários e eventos",
 "Pre-opening of the LESE (Lisbon Economics and Statistics of Education) Conference, ISEG.":"Pré-abertura da Conferência LESE (Lisbon Economics and Statistics of Education), ISEG.",
-"Details":"Detalhes","Conference":"Conferência",
+"Details":"Detalhes","Free PDF (open access)":"PDF gratuito (acesso aberto)","Buy print (Springer)":"Comprar em papel (Springer)","Buy (Springer)":"Comprar (Springer)","Buy from the publisher (FFMS)":"Comprar na editora (FFMS)","Buy from the publisher (Narcea)":"Comprar na editora (Narcea)","Buy (Bertrand)":"Comprar (Bertrand)","Buy from the publisher (Gradiva)":"Comprar na editora (Gradiva)","Conference":"Conferência",
 "International seminar on holistic education, 16–18 March. Latin America and Portugal context.":"Seminário internacional sobre educação integral, 16–18 de março. Contexto da América Latina e de Portugal.",
 "Tareas pendientes — book discussion":"Tareas pendientes — discussão do livro","Discussion of":"Discussão de",
 ", Universidad Torcuato Di Tella (UTDT), Argentina, 7 October.":", Universidad Torcuato Di Tella (UTDT), Argentina, 7 de outubro.","Event":"Evento",

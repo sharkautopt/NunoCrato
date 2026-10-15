@@ -18,6 +18,9 @@ UI = {"en": dict(back_e="← Events", back_b="← Publications", add="Add to cal
                  ev_label="Evento", bk_label="Livro", pub="Editora")}
 
 
+LINKS = json.load(open("tools/books_links.json", encoding="utf-8"))
+
+
 def slugify(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")[:60]
@@ -58,10 +61,10 @@ def add_links():
         if f'<a href="{href}"><img' not in line:
             line = re.sub(r'(<img [^>]*>)', rf'<a href="{href}">\1</a>', line, 1)
             line = re.sub(r'(<div class="bt">)(.*?)(</div>)', rf'\1<a href="{href}">\2</a>\3', line, 1)
-        if f'class="dl" href="{href}"' not in line:
-            k = line.rindex("</div>")
-            line = line[:k] + f'<a class="dl" href="{href}">Details</a>' + line[k:]
-        lines[i] = line
+        line = re.sub(r'(<a class="dl"[^>]*>[^<]*</a>)+</div>$', '</div>', line.rstrip())
+        extra = "".join(f'<a class="dl" href="{x["url"]}" target="_blank" rel="noopener">{x["label_en"]}</a>' for x in LINKS.get(byt[t], []))
+        k = line.rindex("</div>")
+        lines[i] = line[:k] + f'<a class="dl" href="{href}">Details</a>' + extra + line[k:]
     open(p, "w", encoding="utf-8").write("\n".join(lines))
 
 
@@ -118,9 +121,10 @@ def build():
             desc = md.strip_tags(desc_html)
             meta = " · ".join(x for x in [b["publisher"], b["year"]] if x)
             by = md.strip_tags(pt_text(b["by"]) if lang == "pt" else b["by"])
+            blinks = '<p style="margin-top:18px">' + "".join(f'<a class="dl" href="{x["url"]}" target="_blank" rel="noopener">{x["label_" + lang]}</a>' for x in LINKS.get(b["slug"], [])) + "</p>" if LINKS.get(b["slug"]) else ""
             body = (f'<section class="pagehead"><p class="eyebrow"><a href="{"/pt" if lang == "pt" else ""}/publications">{ui["back_b"]}</a></p><h1 class="doc-title">{html.escape(b["title"], quote=False)}</h1></section>\n'
                     f'<div class="container"><div class="about-grid"><div><p class="docmeta">{html.escape(meta)}</p>'
-                    + (f'<p class="docmeta">{html.escape(by)}</p>' if by else "") + f'<p class="body">{desc_html}</p></div>'
+                    + (f'<p class="docmeta">{html.escape(by)}</p>' if by else "") + f'<p class="body">{desc_html}</p>{blinks}</div>'
                     f'<img src="/{b["img"]}" alt="{ui["cover"]} {html.escape(b["title"])}" width="{b["w"]}" height="{b["h"]}" style="height:auto;max-width:320px"></div></div>\n')
             ld = {"@context": "https://schema.org", "@type": "Book", "name": b["title"], "author": PERSON, "description": desc,
                   "datePublished": b["year"], "inLanguage": b["lang"], "image": BASE + b["img"],
