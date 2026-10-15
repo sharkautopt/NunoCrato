@@ -25,16 +25,18 @@ class Refs(HTMLParser):
                     self.refs.append((tag, key, part.strip().split(" ")[0]))
 
 
-def exists(path):
+def exists(path, base=""):
     path = urllib.parse.unquote(path.split("#")[0].split("?")[0])
-    if path in ("", "/"):
-        return os.path.isfile(os.path.join(root, "index.html"))
-    full = os.path.join(root, path.lstrip("/"))
+    if path.startswith("/"):
+        base, path = "", path.lstrip("/")
+    full = os.path.normpath(os.path.join(root, base, path))
+    if path in ("", "./"):
+        return os.path.isfile(os.path.join(root, base, "index.html"))
     return os.path.isfile(full) or os.path.isfile(full + ".html") or os.path.isfile(os.path.join(full, "index.html"))
 
 
 problems, internal, external = [], 0, {}
-pages = sorted(n for n in os.listdir(root) if n.endswith(".html"))
+pages = sorted(os.path.relpath(os.path.join(d, n), root) for d, _, fs in os.walk(root) for n in fs if n.endswith(".html"))
 for name in pages:
     text = open(os.path.join(root, name), encoding="utf-8").read()
     parser = Refs()
@@ -53,7 +55,7 @@ for name in pages:
                 problems.append(f"{name}: points at the staging host: {value}")
             continue
         internal += 1
-        if not exists(value):
+        if not exists(value, os.path.dirname(name)):
             problems.append(f"{name}: missing file for {tag} {key}={value}")
     if "/.netlify/" in text:
         problems.append(f"{name}: injected Netlify script still present")

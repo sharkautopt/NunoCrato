@@ -15,6 +15,10 @@ Static site, no build step. Everything published lives in `docs/`; GitHub Pages 
 - `docs/old-links.js` — loaded by `index.html`; sends old WordPress addresses (`/?p=…`, `/?page_id=…`, `/?cat=…`) to the
   right section (GitHub Pages has no server redirects). Generated: `python3 tools/make_old_links.py tools/old-wp-inventory.json docs/old-links.js`.
   `tools/old-wordpress-redirects.txt` is the old Netlify rule list, kept for reference only.
+- `docs/pt/*.html` — Portuguese version, **generated** from the English pages: `python3 tools/make_pt.py` (also rewrites the EN/PT
+  switch and hreflang tags in the English pages). Never edit `docs/pt/` by hand. New English text (descriptions, labels) goes into
+  `tools/pt_strings.py` first; titles of works stay in their original language. Workflow for any change: edit the English page,
+  add translations to `pt_strings.py`, run `make_pt.py`, then the checker.
 - `docs/404.html` — not-found page. `docs/.nojekyll` must stay. `docs/CNAME` holds the custom domain once DNS is switched.
 - `tools/check_site.py` — link checker (see below).
 
