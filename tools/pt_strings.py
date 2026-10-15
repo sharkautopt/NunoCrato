@@ -56,6 +56,9 @@ T = {
 # education
 "Policy · Advocacy · Assessment":"Políticas · Defesa · Avaliação",
 "Work on curriculum reform, international assessments, teacher training, and educational equity — in Portugal and internationally.":"Trabalho sobre reforma curricular, avaliações internacionais, formação de professores e equidade educativa — em Portugal e no mundo.",
+"Founding president. Nonprofit organisation fostering student qualification in Portugal.":"Presidente fundador. Organização sem fins lucrativos dedicada à qualificação dos alunos em Portugal.",
+"Founding president (2019–2026) of Iniciativa Educação, a nonprofit fostering student qualification in Portugal.":"Presidente fundador (2019–2026) da Iniciativa Educação, organização sem fins lucrativos dedicada à qualificação dos alunos em Portugal.",
+"25→13.7%":"25→13,7%","School dropout, 2011–15":"Abandono escolar, 2011–15",
 "Initiatives &amp; roles":"Iniciativas e funções","President":"Presidente","Member":"Membro",
 "Nonprofit organisation fostering student qualification in Portugal.":"Organização sem fins lucrativos dedicada à qualificação dos alunos em Portugal.",
 "Advisory body of the French Government on education.":"Órgão consultivo do Governo francês para a educação.",
@@ -110,8 +113,8 @@ T = {
 "Open access book published by Springer.":"Livro de acesso livre publicado pela Springer.","Book":"Livro","Earlier presentations":"Apresentações anteriores",
 "For presentations from 2020 and earlier, including keynotes in Taiwan, Sydney, Hungary, Belarus, Abu Dhabi, World Bank, and others, please contact the office.":"Para apresentações de 2020 e anteriores, incluindo palestras em Taiwan, Sydney, Hungria, Bielorrússia, Abu Dhabi, Banco Mundial e outras, contacte o gabinete.",
 # media
-"Press · Interviews · Opinion · Academic":"Imprensa · Entrevistas · Opinião · Académico",
-"Selected press coverage, interviews, opinion pieces, and academic publications.":"Seleção de cobertura de imprensa, entrevistas, artigos de opinião e publicações académicas.",
+"Press · Interviews · Opinion":"Imprensa · Entrevistas · Opinião",
+"Selected press coverage, interviews, and opinion pieces.":"Seleção de cobertura de imprensa, entrevistas e artigos de opinião.",
 "Academic publications":"Publicações académicas","Published in a European journal on mathematics education.":"Publicado numa revista europeia de educação matemática.",
 "European Mathematical Society Magazine, Vol. 124, pp. 49–56.":"European Mathematical Society Magazine, vol. 124, pp. 49–56.",
 "Book presentation (Edições Sílabo) at FNAC Colombo, Lisbon, 14 October, 18:30, with Mário Caldeira (ISEG) and Pedro Janeiro (Accenture).":"Apresentação do livro (Edições Sílabo) na FNAC Colombo, Lisboa, 14 de outubro, 18:30, com Mário Caldeira (ISEG) e Pedro Janeiro (Accenture).",
