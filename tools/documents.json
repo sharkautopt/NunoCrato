@@ -1,0 +1,359 @@
+{
+ "documents/articles/2026-publico-pisa-series.pdf": {
+  "desc_en": "Opinion series in <em>Público</em>, 19 September, 8 and 12 October 2026.",
+  "section": "publications",
+  "slug": "2026-publico-pisa-series",
+  "title": "Para além do PISA (1) e (2) · Não, nem tudo é fado",
+  "when_en": "2026 · Oct"
+ },
+ "documents/biographies/nuno-crato-biografia-es-2026.pdf": {
+  "desc_en": "",
+  "section": "about",
+  "slug": "nuno-crato-biografia-es-2026",
+  "title": "Biografía en español (600 palabras)",
+  "when_en": ""
+ },
+ "documents/biographies/nuno-crato-biografia-pt-2026.pdf": {
+  "desc_en": "",
+  "section": "about",
+  "slug": "nuno-crato-biografia-pt-2026",
+  "title": "Biografia em português (280 palavras)",
+  "when_en": ""
+ },
+ "documents/biographies/nuno-crato-biography-en-2026.pdf": {
+  "desc_en": "",
+  "section": "about",
+  "slug": "nuno-crato-biography-en-2026",
+  "title": "English biography (393 words)",
+  "when_en": ""
+ },
+ "presentations/2025-12-16-csen-france-textbooks.pdf": {
+  "desc_en": "Presentation on textbooks to the Conseil scientifique de l'éducation nationale (CSEN) of France.",
+  "section": "presentations",
+  "slug": "2025-12-16-csen-france-textbooks",
+  "title": "Textbooks — CSEN",
+  "when_en": "2025 · Dec"
+ },
+ "presentations/2026-06-04-igep-porto-textbooks.pdf": {
+  "desc_en": "On textbooks, IGeP, Porto.",
+  "section": "presentations",
+  "slug": "2026-06-04-igep-porto-textbooks",
+  "title": "Manuais escolares — IGeP",
+  "when_en": "2026 · Jun"
+ },
+ "presentations/2026-06-19-cmin-porto-ai.pdf": {
+  "desc_en": "Presentation on artificial intelligence, CMIN, Porto.",
+  "section": "presentations",
+  "slug": "2026-06-19-cmin-porto-ai",
+  "title": "Inteligência Artificial — CMIN",
+  "when_en": "2026 · Jun"
+ },
+ "presentations/2026-06-29-babell-porto.pdf": {
+  "desc_en": "Invited lecture, Porto.",
+  "section": "presentations",
+  "slug": "2026-06-29-babell-porto",
+  "title": "Babell — Porto",
+  "when_en": "2026 · Jun"
+ },
+ "presentations/2026-09-15-book-2-0-reading.pdf": {
+  "desc_en": "On reading, from decoding and fluency to knowledge. Book 2.0 2026, Lisbon, 15 September 2026.",
+  "section": "presentations",
+  "slug": "2026-09-15-book-2-0-reading",
+  "title": "Um futuro a ler e a escrever — Book 2.0",
+  "when_en": "2026 · Sep"
+ },
+ "presentations/2026-09-17-panama-curriculum.pdf": {
+  "desc_en": "Educating for the future: the curricular decisions that change countries. SUMUN 2026 (“Hackeando la ciudad”), organised by Grupo Santillana, Panamá City, 17 September 2026.",
+  "section": "presentations",
+  "slug": "2026-09-17-panama-curriculum",
+  "title": "¡Sí! ¡La educación puede mejorar! Con trabajo y evidencias",
+  "when_en": "2026 · Sep"
+ },
+ "wp-content/uploads/2021/02/20161207-DN-PISA-1.pdf": {
+  "desc_en": "Diário de Notícias, 7 December 2016.",
+  "section": "media",
+  "slug": "20161207-dn-pisa-1",
+  "title": "Melhorámos! Podemos ainda melhorar",
+  "when_en": "2016 · Dec"
+ },
+ "wp-content/uploads/2021/02/201709-Economistas-na-Educacao-1-1-1.pdf": {
+  "desc_en": "On how economic research improved education.",
+  "section": "media",
+  "slug": "201709-economistas-na-educacao-1-1-1",
+  "title": "A responsabilidade dos economistas na educação",
+  "when_en": "2019"
+ },
+ "wp-content/uploads/2021/02/201801-Forbes-entrevistanunocrato-2.pdf": {
+  "desc_en": "Forbes, January 2018.",
+  "section": "media",
+  "slug": "201801-forbes-entrevistanunocrato-2",
+  "title": "Estamos a voltar quase 20 anos atrás",
+  "when_en": "2018 · Jan"
+ },
+ "wp-content/uploads/2021/02/20180203-Entrevista-Sol-rankings14-1-2.pdf": {
+  "desc_en": "Jornal Sol, 3 March 2018. On school rankings.",
+  "section": "media",
+  "slug": "20180203-entrevista-sol-rankings14-1-2",
+  "title": "Pais devem ter informação para as escolas — Part 1",
+  "when_en": "2018 · Mar"
+ },
+ "wp-content/uploads/2021/02/20180203-Entrevista-Sol-rankings15-1-1.pdf": {
+  "desc_en": "Jornal Sol, 3 March 2018. On school rankings.",
+  "section": "media",
+  "slug": "20180203-entrevista-sol-rankings15-1-1",
+  "title": "Pais devem ter informação para as escolas — Part 2",
+  "when_en": "2018 · Mar"
+ },
+ "wp-content/uploads/2021/02/20180203-Entrevista-Sol-rankings16-2-1.pdf": {
+  "desc_en": "Jornal Sol, 3 March 2018. On school rankings.",
+  "section": "media",
+  "slug": "20180203-entrevista-sol-rankings16-2-1",
+  "title": "Pais devem ter informação para as escolas — Part 3",
+  "when_en": "2018 · Mar"
+ },
+ "wp-content/uploads/2021/02/20180526-Resposta-Entrevista-Heitor-Expresso-2.pdf": {
+  "desc_en": "Expresso, 26 May 2018.",
+  "section": "media",
+  "slug": "20180526-resposta-entrevista-heitor-expresso-2",
+  "title": "Resposta a entrevista de Manuel Heitor",
+  "when_en": "2018 · May"
+ },
+ "wp-content/uploads/2021/02/20190717-Portugal-shows-the-way-to-learning-_-Inger-Enkvist-_-SvD.pdf": {
+  "desc_en": "Inger Enkvist, Svenska Dagbladet.",
+  "section": "media",
+  "slug": "20190717-portugal-shows-the-way-to-learning-inger-enkvist-svd",
+  "title": "Portugal shows the way to learning",
+  "when_en": "2019 · Jul"
+ },
+ "wp-content/uploads/2021/02/20191210-PISA-2018-Publico-1-1.pdf": {
+  "desc_en": "Jornal Público, 10 December 2019. On PISA results.",
+  "section": "media",
+  "slug": "20191210-pisa-2018-publico-1-1",
+  "title": "A educação numa encruzilhada?",
+  "when_en": "2019 · Dec"
+ },
+ "wp-content/uploads/2021/02/20200523-DN-M.GriloN.Crato-Ensino-online-1-1.pdf": {
+  "desc_en": "Diário de Notícias, 23 May 2020.",
+  "section": "media",
+  "slug": "20200523-dn-m-grilon-crato-ensino-online-1-1",
+  "title": "À conversa com Eduardo Marçal Grilo",
+  "when_en": "2020 · May"
+ },
+ "wp-content/uploads/2021/02/20200624-LUSA-Ensino-a-distancia-PUBLICO-1.pdf": {
+  "desc_en": "LUSA, 24 June 2020. On distance learning.",
+  "section": "media",
+  "slug": "20200624-lusa-ensino-a-distancia-publico-1",
+  "title": "Ensino a distância pode ser positivo",
+  "when_en": "2020 · Jun"
+ },
+ "wp-content/uploads/2021/02/Crato2020_Chapter_CurriculumAndEducationalReform-1.pdf": {
+  "desc_en": "Book chapter on the Portuguese case of educational improvement.",
+  "section": "research",
+  "slug": "crato2020-chapter-curriculumandeducationalreform-1",
+  "title": "Curriculum and educational reform",
+  "when_en": "2020"
+ },
+ "wp-content/uploads/2021/02/Letter-to-a-young-minister.pdf": {
+  "desc_en": "Essay on education policy.",
+  "section": "media",
+  "slug": "letter-to-a-young-minister",
+  "title": "Letter to a young minister",
+  "when_en": "2020 · May"
+ },
+ "wp-content/uploads/2021/02/Nuno-Crato-CV-Academico-2016.pdf": {
+  "desc_en": "",
+  "section": "about",
+  "slug": "nuno-crato-cv-academico-2016",
+  "title": "Academic CV",
+  "when_en": ""
+ },
+ "wp-content/uploads/2021/07/20210725-DN-Madeira.pdf": {
+  "desc_en": "",
+  "section": "media",
+  "slug": "20210725-dn-madeira",
+  "title": "Entrevista ao DN Madeira",
+  "when_en": "2021 · Jul"
+ },
+ "wp-content/uploads/2021/09/A_fragmented_periodogram_approach_for_cl-1.pdf": {
+  "desc_en": "Academic paper.",
+  "section": "media",
+  "slug": "a-fragmented-periodogram-approach-for-cl-1",
+  "title": "A fragmented-periodogram approach for clustering big data time series",
+  "when_en": "2021 · Sep"
+ },
+ "wp-content/uploads/2021/09/A_fragmented_periodogram_approach_for_cl.pdf": {
+  "desc_en": "<em>Statistical Analysis and Data Mining</em>.",
+  "section": "research",
+  "slug": "a-fragmented-periodogram-approach-for-cl",
+  "title": "A fragmented-periodogram approach for clustering big data time series",
+  "when_en": "2019"
+ },
+ "wp-content/uploads/2021/09/Relationship_Between_Equity_and_Excellen.pdf": {
+  "desc_en": "Multilevel analysis of international student assessment data with a focus on Turkey.",
+  "section": "research",
+  "slug": "relationship-between-equity-and-excellen",
+  "title": "Relationship between equity and excellence in education",
+  "when_en": "2021"
+ },
+ "wp-content/uploads/2021/10/20211007-De-Standaard-Belgium-EN-1.pdf": {
+  "desc_en": "",
+  "section": "media",
+  "slug": "20211007-de-standaard-belgium-en-1",
+  "title": "Interview at De Standaard (Belgium)",
+  "when_en": "2021 · Oct"
+ },
+ "wp-content/uploads/2022/03/20220312-Ultima-Aula-Publico-1.pdf": {
+  "desc_en": "ISEG closing lecture.",
+  "section": "presentations",
+  "slug": "20220312-ultima-aula-publico-1",
+  "title": "Última Aula — Main",
+  "when_en": "2022 · Mar"
+ },
+ "wp-content/uploads/2022/03/Brochura_Prof-Nuno-Crato_V06_Web.pdf": {
+  "desc_en": "ISEG closing lecture.",
+  "section": "presentations",
+  "slug": "brochura-prof-nuno-crato-v06-web",
+  "title": "Última Aula — Web Brochure",
+  "when_en": "2022 · Mar"
+ },
+ "wp-content/uploads/2022/05/20220600-EMS-Math-Curriculum-Matters.pdf": {
+  "desc_en": "European Mathematical Society Magazine, Vol. 124, pp. 49–56.",
+  "section": "media",
+  "slug": "20220600-ems-math-curriculum-matters",
+  "title": "Math Curriculum Matters",
+  "when_en": "2022 · Jun"
+ },
+ "wp-content/uploads/2022/11/5440-Texto-del-articulo-10491-3-10-20221027.pdf": {
+  "desc_en": "Published in a European journal on mathematics education.",
+  "section": "media",
+  "slug": "5440-texto-del-articulo-10491-3-10-20221027",
+  "title": "Textbooks and Mathematics Curriculum",
+  "when_en": "2022 · Oct"
+ },
+ "wp-content/uploads/2023/04/20230316-Brasilia-SESI-SENAI-2.pdf": {
+  "desc_en": "Brasília.",
+  "section": "presentations",
+  "slug": "20230316-brasilia-sesi-senai-2",
+  "title": "Seminário Internacional SESI/SENAI de Educação",
+  "when_en": "2023 · Mar"
+ },
+ "wp-content/uploads/2023/08/CURRICULUM-VITAE-2023-1.pdf": {
+  "desc_en": "",
+  "section": "about",
+  "slug": "curriculum-vitae-2023-1",
+  "title": "Full CV (2023)",
+  "when_en": ""
+ },
+ "wp-content/uploads/2023/10/20230925-Campo-Maior-II-Conf-MF-Patricio.pdf": {
+  "desc_en": "Campo Maior.",
+  "section": "presentations",
+  "slug": "20230925-campo-maior-ii-conf-mf-patricio",
+  "title": "Campo Maior II — Conferência Ministério da Força",
+  "when_en": "2023 · Sep"
+ },
+ "wp-content/uploads/2024/05/20240525-TASIS-2-1.pdf": {
+  "desc_en": "Geneva, three versions of the presentation.",
+  "section": "presentations",
+  "slug": "20240525-tasis-2-1",
+  "title": "TASIS Schools — Curriculum & Assessment — Version 1",
+  "when_en": "2024 · May"
+ },
+ "wp-content/uploads/2024/05/20240525-TASIS-2.pdf": {
+  "desc_en": "Geneva, three versions of the presentation.",
+  "section": "presentations",
+  "slug": "20240525-tasis-2",
+  "title": "TASIS Schools — Curriculum & Assessment — Version 2",
+  "when_en": "2024 · May"
+ },
+ "wp-content/uploads/2024/05/20240525-TASIS.pdf": {
+  "desc_en": "Geneva, three versions of the presentation.",
+  "section": "presentations",
+  "slug": "20240525-tasis",
+  "title": "TASIS Schools — Curriculum & Assessment — Version 3",
+  "when_en": "2024 · May"
+ },
+ "wp-content/uploads/2024/06/20240604-Premio-SHIP.pdf": {
+  "desc_en": "Online award ceremony.",
+  "section": "presentations",
+  "slug": "20240604-premio-ship",
+  "title": "Prémio SHIP",
+  "when_en": "2024 · Jun"
+ },
+ "wp-content/uploads/2024/07/20240619-Curriculum-Poland-.pdf": {
+  "desc_en": "Poland.",
+  "section": "presentations",
+  "slug": "20240619-curriculum-poland",
+  "title": "Curriculum — Poland Seminar — v2",
+  "when_en": "2024 · Jun"
+ },
+ "wp-content/uploads/2024/07/20240619-Curriculum-Poland-1-1.pdf": {
+  "desc_en": "Poland.",
+  "section": "presentations",
+  "slug": "20240619-curriculum-poland-1-1",
+  "title": "Curriculum — Poland Seminar — v1",
+  "when_en": "2024 · Jun"
+ },
+ "wp-content/uploads/2024/07/20240716-Ciencia-na-Ed-IP-Viseu-.pdf": {
+  "desc_en": "Viseu — Instituto Politécnico.",
+  "section": "presentations",
+  "slug": "20240716-ciencia-na-ed-ip-viseu",
+  "title": "Ciência na Educação",
+  "when_en": "2024 · Jul"
+ },
+ "wp-content/uploads/2024/09/20240806-POLAND-Portuguese-Curriculum-Webinar.pdf": {
+  "desc_en": "Poland (online).",
+  "section": "presentations",
+  "slug": "20240806-poland-portuguese-curriculum-webinar",
+  "title": "Portuguese Curriculum Webinar",
+  "when_en": "2024 · Aug"
+ },
+ "wp-content/uploads/2024/09/20240820-Brasil-Poliedro.pdf": {
+  "desc_en": "Brasil — Poliedro Educação.",
+  "section": "presentations",
+  "slug": "20240820-brasil-poliedro",
+  "title": "Currículo Educacional",
+  "when_en": "2024 · Aug"
+ },
+ "wp-content/uploads/2024/09/20240822-Montevideo-ANEP.pdf": {
+  "desc_en": "Montevideo.",
+  "section": "presentations",
+  "slug": "20240822-montevideo-anep",
+  "title": "ANEP — Administración Nacional de Educación Pública",
+  "when_en": "2024 · Aug"
+ },
+ "wp-content/uploads/2024/09/20240823-Montevideo-SerPro.pdf": {
+  "desc_en": "Montevideo.",
+  "section": "presentations",
+  "slug": "20240823-montevideo-serpro",
+  "title": "Ser Professor — SerPro Seminar",
+  "when_en": "2024 · Aug"
+ },
+ "wp-content/uploads/2024/09/20240827-CABA-ES.pdf": {
+  "desc_en": "Buenos Aires.",
+  "section": "presentations",
+  "slug": "20240827-caba-es",
+  "title": "CABA — Congreso Argentino de Autoridades en Educación",
+  "when_en": "2024 · Aug"
+ },
+ "wp-content/uploads/2025/03/Apresentacao-Aprender.pdf": {
+  "desc_en": "On learning processes and the 'Aprender' book.",
+  "section": "presentations",
+  "slug": "apresentacao-aprender",
+  "title": "Apresentação Aprender",
+  "when_en": "2025"
+ },
+ "wp-content/uploads/2025/06/20241114-Textbooks-ROTTERDAM.pdf": {
+  "desc_en": "Rotterdam, 14 November 2024.",
+  "section": "presentations",
+  "slug": "20241114-textbooks-rotterdam",
+  "title": "Why textbooks?",
+  "when_en": "2024 · Nov"
+ },
+ "wp-content/uploads/2025/07/20250521-Textbooks-OEIRAS.pdf": {
+  "desc_en": "Oeiras, Portugal.",
+  "section": "presentations",
+  "slug": "20250521-textbooks-oeiras",
+  "title": "Porquê manuais escolares?",
+  "when_en": "2025 · May"
+ }
+}

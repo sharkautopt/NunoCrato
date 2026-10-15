@@ -6,7 +6,7 @@ X-WR-CALNAME:Nuno Crato — events
 X-WR-TIMEZONE:Europe/Lisbon
 BEGIN:VEVENT
 UID:2025-12-16-textbooks-csen@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20251216
 DTEND;VALUE=DATE:20251217
 SUMMARY:Textbooks — CSEN
@@ -15,7 +15,7 @@ DESCRIPTION:Presentation on textbooks to the CSEN.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-04-manuais-escolares-igep@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:Manuais escolares — IGeP
@@ -24,7 +24,7 @@ DESCRIPTION:On textbooks.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-19-intelig-ncia-artificial-cmin@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:Inteligência Artificial — CMIN
@@ -33,7 +33,7 @@ DESCRIPTION:Presentation on artificial intelligence.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-06-29-babell-porto@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 SUMMARY:Babell — Porto
@@ -42,7 +42,7 @@ DESCRIPTION:Invited lecture.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-15-um-futuro-a-ler-e-a-escrever-book-2-0@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Um futuro a ler e a escrever — Book 2.0
@@ -51,7 +51,7 @@ DESCRIPTION:Lecture on reading\, from decoding and fluency to knowledge.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-17--s-la-educaci-n-puede-mejorar-con-trabaj@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:¡Sí! ¡La educación puede mejorar! Con trabajo y evidencias
@@ -61,7 +61,7 @@ DESCRIPTION:Lecture at SUMUN 2026 (“Hackeando la ciudad”)\, organised
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-30-xxvi-encuentro-internacional-de-la-inspe@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261003
 SUMMARY:XXVI Encuentro Internacional de la Inspección de Educación
@@ -70,7 +70,7 @@ DESCRIPTION:International conference.
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-14-presentation-of-machine-learning-com-pyt@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART:20261014T173000Z
 DTEND:20261014T190000Z
 SUMMARY:Presentation of “Machine Learning com Python” by Jorge Caiado
@@ -81,7 +81,7 @@ URL:https://www.silabo.pt
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19-pisa-as-raz-es-do-estado-atual-como-inve@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART:20261019T203000Z
 DTEND:20261019T220000Z
 SUMMARY:PISA: as razões do estado atual\, como inverter o ciclo
@@ -94,7 +94,7 @@ DESCRIPTION:Conference on the reasons for the current state of the PISA re
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-confer-ncia-the-future-of-intelligence-@nunocrato.org
-DTSTAMP:20261015T162459Z
+DTSTAMP:20261015T163502Z
 DTSTART:20261030T093000Z
 DTEND:20261030T190000Z
 SUMMARY:Conferência “The Future of Intelligence”

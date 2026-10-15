@@ -5,7 +5,9 @@ usage (repo root):  python3 tools/make_pt.py && python3 tools/make_events.py
 Run it after make_pt.py (it uses presentations.html / pt/presentations.html as the page template).
 The page also re-sorts itself in the visitor's browser by today's date, so upcoming/past stay right between rebuilds.
 """
-import datetime, html, json, os, re, urllib.parse
+import datetime, html, json, os, re, sys, urllib.parse
+sys.path.insert(0, os.path.dirname(__file__))
+import viewlib
 
 DOCS = "docs"
 BASE = "https://www.nunocrato.org/"
@@ -85,7 +87,8 @@ def entry(e, lang, upcoming):
     if upcoming:
         links += f'<a class="dl" href="{html.escape(gcal(e, lang))}" target="_blank" rel="noopener">{ui["add"]}</a>'
     for l in e["links"]:
-        url = l["url"] if re.match(r"https?:", l["url"]) else ("../" if lang == "pt" else "") + l["url"]
+        slug = viewlib.slug_for(l["url"]) if not re.match(r"https?:", l["url"]) else None
+        url = l["url"] if re.match(r"https?:", l["url"]) else (f"view/{slug}" if slug else ("../" if lang == "pt" else "") + l["url"])
         ext = ' target="_blank" rel="noopener"' if url.startswith("http") else ""
         links += f'<a class="dl" href="{html.escape(url)}"{ext}>{l[lang]}</a>'
     img = f'<img class="still" src="{"../" if lang == "pt" else ""}{e["image"]}" alt="">' if e.get("image") and upcoming else ""

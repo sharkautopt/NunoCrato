@@ -9,6 +9,13 @@ for p in pages:
     for url in (en, pt):
         rows.append(f"<url><loc>{url}</loc><lastmod>{today}</lastmod>"
                     f'<xhtml:link rel="alternate" hreflang="en" href="{en}"/><xhtml:link rel="alternate" hreflang="pt" href="{pt}"/></url>')
+import os
+for n in sorted(os.listdir("docs/view")):
+    if n.endswith(".html"):
+        s = n[:-5]; en, pt = B + "view/" + s, B + "pt/view/" + s
+        for url in (en, pt):
+            rows.append(f"<url><loc>{url}</loc><lastmod>{today}</lastmod>"
+                        f'<xhtml:link rel="alternate" hreflang="en" href="{en}"/><xhtml:link rel="alternate" hreflang="pt" href="{pt}"/></url>')
 open("docs/sitemap.xml", "w", encoding="utf-8").write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
     + "\n".join(rows) + "\n</urlset>\n")

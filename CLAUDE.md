@@ -62,8 +62,15 @@ Home page "Recent activity" (`index.html`) shows the 5 most recent items; add ne
 ## Build chain (run from the repo root after any content change)
 
 ```
-python3 tools/make_pt.py && python3 tools/make_events.py && python3 tools/make_sitemap.py && python3 tools/check_site.py docs
+tools/build.sh
 ```
+
+(`build.sh` runs, in order: `make_docs.py rewrite`, `make_pt.py`, `make_docs.py build`, `make_events.py`, `make_sitemap.py`, `check_site.py docs`.)
+
+**PDF links open a preview page, not a download.** Link a new PDF in an English page the normal way (`<a class="dl" href="presentations/x.pdf">PDF</a>`);
+`build.sh` registers it in `tools/documents.json`, rewrites the link to `view/<slug>`, and generates `docs/view/<slug>.html`,
+`docs/pt/view/<slug>.html` and a first-page thumbnail (`docs/view/thumbs/`). Those generated files are not edited by hand.
+Viewer pages use absolute paths (`/style.css`) like `404.html`. Entries in `events.json` that link to a PDF are routed through the viewer too.
 
 Images: shrink before adding (photos ≤ ~1400 px wide, JPEG quality ~82). Every `<img>` needs `width`/`height`, `loading="lazy"`
 (except the first image on the home and About pages). Do not rename files under `docs/wp-content/` (shrinking them in place is fine).
