@@ -142,6 +142,12 @@ T = {
 "On how economic research improved education.":"Sobre como a investigação económica melhorou a educação.","Forbes, January 2018.":"Forbes, janeiro de 2018.","Jornal Sol, 3 March 2018. On school rankings.":"Jornal Sol, 3 de março de 2018. Sobre rankings de escolas.",
 "Part 1":"Parte 1","Part 2":"Parte 2","Part 3":"Parte 3","Expresso, 26 May 2018.":"Expresso, 26 de maio de 2018.","Diário de Notícias, 7 December 2016.":"Diário de Notícias, 7 de dezembro de 2016.","Outlets":"Órgãos de comunicação",
 "Presentation of \"Machine Learning com Python\" by Jorge Caiado":"Apresentação de «Machine Learning com Python», de Jorge Caiado",
+"Events":"Eventos",
+"October 2026 · Opinion":"Outubro de 2026 · Opinião",
+"PDF (3 articles)":"PDF (3 artigos)",
+"Opinion series in":"Série de artigos de opinião no",
+"on the PISA 2025 results: “Não, nem tudo é fado” (19 September), “Para além do PISA (1)” (8 October) and “Para além do PISA (2)” (12 October), with proposals for improving school results. The three articles in one PDF.":"sobre os resultados do PISA 2025: «Não, nem tudo é fado» (19 de setembro), «Para além do PISA (1)» (8 de outubro) e «Para além do PISA (2)» (12 de outubro), com propostas para melhorar os resultados escolares. Os três artigos num só PDF.",
+", 19 September, 8 and 12 October 2026.":", 19 de setembro, 8 e 12 de outubro de 2026.",
 }
 MONTHS = {"Jan":"jan","Feb":"fev","Mar":"mar","Apr":"abr","May":"mai","Jun":"jun","Jul":"jul","Aug":"ago","Sep":"set","Oct":"out","Nov":"nov","Dec":"dez"}
 META = {  # per page: <title> and description (also og/twitter)

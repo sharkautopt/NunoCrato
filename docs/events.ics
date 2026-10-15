@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nunocrato.org//Events//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Nuno Crato — events
+X-WR-TIMEZONE:Europe/Lisbon
+BEGIN:VEVENT
+UID:2025-12-16-textbooks-csen@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251217
+SUMMARY:Textbooks — CSEN
+LOCATION:Conseil scientifique de l'éducation nationale\, France
+DESCRIPTION:Presentation on textbooks to the CSEN.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-04-manuais-escolares-igep@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:Manuais escolares — IGeP
+LOCATION:IGeP\, Porto
+DESCRIPTION:On textbooks.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-19-intelig-ncia-artificial-cmin@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:Inteligência Artificial — CMIN
+LOCATION:CMIN\, Porto
+DESCRIPTION:Presentation on artificial intelligence.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-29-babell-porto@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:Babell — Porto
+LOCATION:Porto
+DESCRIPTION:Invited lecture.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-um-futuro-a-ler-e-a-escrever-book-2-0@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Um futuro a ler e a escrever — Book 2.0
+LOCATION:Book 2.0 2026\, Lisbon
+DESCRIPTION:Lecture on reading\, from decoding and fluency to knowledge.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17--s-la-educaci-n-puede-mejorar-con-trabaj@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:¡Sí! ¡La educación puede mejorar! Con trabajo y evidencias
+LOCATION:SUMUN 2026\, Panamá City
+DESCRIPTION:Lecture at SUMUN 2026 (“Hackeando la ciudad”)\, organised 
+ by Grupo Santillana.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-xxvi-encuentro-internacional-de-la-inspe@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261003
+SUMMARY:XXVI Encuentro Internacional de la Inspección de Educación
+LOCATION:Valladolid\, Spain
+DESCRIPTION:International conference.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-presentation-of-machine-learning-com-pyt@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART:20261014T173000Z
+DTEND:20261014T190000Z
+SUMMARY:Presentation of “Machine Learning com Python” by Jorge Caiado
+LOCATION:FNAC Colombo\, Lisbon
+DESCRIPTION:Book presentation (Edições Sílabo)\, with Mário Caldeira (
+ ISEG) and Pedro Janeiro (Accenture).
+URL:https://www.silabo.pt
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-pisa-as-raz-es-do-estado-atual-como-inve@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART:20261019T203000Z
+DTEND:20261019T220000Z
+SUMMARY:PISA: as razões do estado atual\, como inverter o ciclo
+LOCATION:Auditório da Escola Secundária Inês de Castro\, Canidelo\, Vil
+ a Nova de Gaia
+DESCRIPTION:Conference on the reasons for the current state of the PISA re
+ sults and how to reverse the cycle\, by invitation of the Mayor of Vila N
+ ova de Gaia\, Luís Filipe Menezes\, and the municipality's education dep
+ artment.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-confer-ncia-the-future-of-intelligence-@nunocrato.org
+DTSTAMP:20261015T162459Z
+DTSTART:20261030T093000Z
+DTEND:20261030T190000Z
+SUMMARY:Conferência “The Future of Intelligence”
+LOCATION:Fábrica Centro Ciência Viva de Aveiro\, Aveiro
+DESCRIPTION:Conference organised by Associação Ludus on artificial intel
+ ligence\, neuroscience\, psychology and education. Nuno Crato takes part 
+ in the panel “The present of education” and in the round table “The
+  future of education”\, with Judit Polgár\, Ernő Rubik\, Sandra Soare
+ s and others. Free\, with prior registration.
+URL:https://ludicum.org/conferencia-the-future-of-intelligence/
+END:VEVENT

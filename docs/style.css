@@ -1,5 +1,5 @@
 :root{
-  --ink:#13231b; --forest:#1c4532; --moss:#2f6b4f; --sage:#6b8f7a;
+  --ink:#13231b; --forest:#1c4532; --moss:#2f6b4f; --sage:#4d6b5b;
   --paper:#f7f5ef; --paper-2:#efece2; --line:#d8d3c4; --accent:#c2702f;
   --display:'Fraunces',Georgia,serif; --body:'Newsreader',Georgia,serif; --mono:'IBM Plex Mono',monospace;
 }
@@ -7,7 +7,7 @@
 html{scroll-behavior:smooth}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:inherit}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 
 .topbar{position:sticky;top:0;z-index:50;background:rgba(247,245,239,0.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .topbar-inner{max-width:1200px;margin:0 auto;padding:0 32px;height:64px;display:flex;align-items:center;justify-content:space-between}
@@ -53,7 +53,7 @@ p.body a{color:var(--moss);text-underline-offset:3px}
 .bookcard img{width:100%;border-radius:2px;box-shadow:0 8px 22px rgba(19,35,27,0.18);margin-bottom:14px}
 .bookcard .bt{font-family:var(--display);font-weight:500;font-size:16px;line-height:1.25;margin-bottom:5px}
 .bookcard .bm{font-family:var(--mono);font-size:10.5px;letter-spacing:0.04em;text-transform:uppercase;color:var(--sage)}
-.bookcard .ba{font-family:var(--mono);font-size:10px;letter-spacing:0.02em;color:var(--sage);opacity:0.8;margin-top:3px;font-style:italic}
+.bookcard .ba{font-family:var(--mono);font-size:10px;letter-spacing:0.02em;color:var(--sage);margin-top:3px;font-style:italic}
 
 /* link list */
 .linklist{display:flex;flex-direction:column;max-width:600px}

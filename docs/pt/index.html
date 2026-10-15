@@ -22,15 +22,13 @@
 <meta name="twitter:title" content="Nuno Crato — ISEG, Universidade de Lisboa">
 <meta name="twitter:description" content="Nuno Crato — Professor Catedrático de Matemática e Estatística no ISEG, Universidade de Lisboa. Antigo Ministro da Educação e Ciência de Portugal (2011–2015). Estatístico, autor e divulgador de ciência.">
 <meta name="twitter:image" content="https://www.nunocrato.org/wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../fonts.css">
 <style>
 :root{
   --ink:#13231b;
   --forest:#1c4532;
   --moss:#2f6b4f;
-  --sage:#6b8f7a;
+  --sage:#4d6b5b;
   --paper:#f7f5ef;
   --paper-2:#efece2;
   --line:#d8d3c4;
@@ -103,7 +101,7 @@ img{max-width:100%;display:block}
 .hero-lede{
   font-size:21px;line-height:1.55;max-width:30ch;color:var(--ink);
 }
-.hero-lede a{color:var(--accent);text-underline-offset:3px}
+.hero-lede a{color:#a85a1f;text-underline-offset:3px}
 .hero-meta{
   margin-top:30px;display:flex;flex-wrap:wrap;gap:10px 8px;
 }
@@ -157,7 +155,7 @@ img{max-width:100%;display:block}
   color:var(--moss);padding-bottom:14px;margin-bottom:8px;
   border-bottom:2px solid var(--forest);display:flex;justify-content:space-between;align-items:baseline;
 }
-.section-label .count{opacity:0.5;font-size:11px}
+.section-label .count{opacity:1;font-size:11px}
 
 /* activity feed */
 .feed-item{
@@ -242,6 +240,7 @@ img{max-width:100%;display:block}
       <a href='education'>Educação</a>
       <a href='presentations'>Apresentações</a>
       <a href='media'>Media</a>
+      <a href='../events'>Eventos</a>
       <a href='about'>Sobre</a>
       <span class="lang"><a href="../">EN</a><a href="./" class="on">PT</a></span>
     </nav>
@@ -262,7 +261,7 @@ img{max-width:100%;display:block}
     </div>
   </div>
   <div class="hero-portrait">
-    <img src="../wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg" alt="Nuno Crato">
+    <img src="../wp-content/uploads/2025/02/Prof-Nuno-Crato.jpg" alt="Nuno Crato" width="1200" height="675" fetchpriority="high">
   </div>
 </section>
 
@@ -280,15 +279,23 @@ img{max-width:100%;display:block}
     <div class="section-label"><span>Atividade recente</span><span class="count">2026</span></div>
 
     <a class='feed-item' href='media'>
-      <img class="feed-thumb" src="../images/fnac-machine-learning-2026-10-14.jpg" alt="">
+      <img class="feed-thumb" src="../images/fnac-machine-learning-2026-10-14.jpg" alt="" width="360" height="360" loading="lazy" decoding="async">
       <div>
         <div class="feed-when">Outubro de 2026 · Apresentação de livro</div>
         <div class="feed-title">Machine Learning com Python, de Jorge Caiado · FNAC Colombo, Lisboa</div>
       </div>
     </a>
 
+    <a class='feed-item' href='media'>
+      <img class="feed-thumb" src="../images/publico-pisa-2026.jpg" alt="" width="168" height="168" loading="lazy" decoding="async">
+      <div>
+        <div class="feed-when">Outubro de 2026 · Opinião</div>
+        <div class="feed-title">Para além do PISA (1) e (2) · Público</div>
+      </div>
+    </a>
+
     <a class='feed-item' href='presentations'>
-      <img class="feed-thumb" src="../images/panama-2026-09-17.jpg" alt="">
+      <img class="feed-thumb" src="../images/panama-2026-09-17.jpg" alt="" width="360" height="360" loading="lazy" decoding="async">
       <div>
         <div class="feed-when">Setembro de 2026 · Conferência</div>
         <div class="feed-title">¡Sí! ¡La educación puede mejorar! · SUMUN 2026, Panamá</div>
@@ -296,7 +303,7 @@ img{max-width:100%;display:block}
     </a>
 
     <a class='feed-item' href='presentations'>
-      <img class="feed-thumb" src="../images/book-2-0-2026-09-15.jpg" alt="">
+      <img class="feed-thumb" src="../images/book-2-0-2026-09-15.jpg" alt="" width="360" height="360" loading="lazy" decoding="async">
       <div>
         <div class="feed-when">Setembro de 2026 · Conferência</div>
         <div class="feed-title">Um futuro a ler e a escrever · Book 2.0, Lisboa</div>
@@ -304,18 +311,10 @@ img{max-width:100%;display:block}
     </a>
 
     <a class='feed-item' href='media'>
-      <img class="feed-thumb" src="../images/sic-noticias-exames-nacionais-digitalizacao.png" alt="">
+      <img class="feed-thumb" src="../images/sic-noticias-exames-nacionais-digitalizacao.png" alt="" width="640" height="480" loading="lazy" decoding="async">
       <div>
         <div class="feed-when">Julho de 2026 · Debate televisivo</div>
         <div class="feed-title">Exames nacionais adiados — falhas na digitalização das provas · SIC Notícias</div>
-      </div>
-    </a>
-
-    <a class='feed-item' href='media'>
-      <img class="feed-thumb" src="../wp-content/uploads/2026/05/WhatsApp-Image-2026-05-04-at-12.59.25.jpeg" alt="">
-      <div>
-        <div class="feed-when">Maio de 2026 · Podcast</div>
-        <div class="feed-title">Para saber mais não basta a curiosidade</div>
       </div>
     </a>
 
@@ -327,19 +326,19 @@ img{max-width:100%;display:block}
       <div class="section-label"><span>Livros</span><span class="count">04</span></div>
       <div style="display:flex;flex-direction:column;gap:22px;margin-top:22px">
         <a class='book' href='publications'>
-          <img src="../wp-content/uploads/2025/08/image.jpg" alt="O Manual Escolar">
+          <img src="../wp-content/uploads/2025/08/image.jpg" alt="O Manual Escolar" width="500" height="723" loading="lazy" decoding="async">
           <div><div class="book-t">O Manual Escolar</div><div class="book-m">Almedina · 2025</div></div>
         </a>
         <a class='book' href='publications'>
-          <img src="../wp-content/uploads/2025/08/9783030590307.jpg" alt="Improving a Country's Education">
+          <img src="../wp-content/uploads/2025/08/9783030590307.jpg" alt="Improving a Country's Education" width="252" height="400" loading="lazy" decoding="async">
           <div><div class="book-t">Improving a Country's Education</div><div class="book-m">Springer · 2020</div></div>
         </a>
         <a class='book' href='publications'>
-          <img src="../wp-content/uploads/2025/08/978-3-031-69284-0.jpeg" alt="Improving National Education Systems">
+          <img src="../wp-content/uploads/2025/08/978-3-031-69284-0.jpeg" alt="Improving National Education Systems" width="827" height="1246" loading="lazy" decoding="async">
           <div><div class="book-t">Improving National Education Systems After Covid-19</div><div class="book-m">Springer · 2024</div></div>
         </a>
         <a class='book' href='publications'>
-          <img src="../wp-content/uploads/2025/08/EclipseEinsteinCTT.jpg" alt="Einstein's Eclipse">
+          <img src="../wp-content/uploads/2025/08/EclipseEinsteinCTT.jpg" alt="Einstein's Eclipse" width="1444" height="1446" loading="lazy" decoding="async">
           <div><div class="book-t">Einstein's Eclipse</div><div class="book-m">2021</div></div>
         </a>
       </div>
